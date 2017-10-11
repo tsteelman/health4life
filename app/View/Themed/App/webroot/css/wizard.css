@@ -1,0 +1,143 @@
+ .wizard {
+  /* position: relative; */
+  overflow: hidden;
+}
+
+ .wizard:before,
+ .wizard:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+ .wizard:after {
+  clear: both;
+}
+
+ .wizard ul.steps {
+  /* width: 4000px; */
+  padding: 0;
+  margin: 0;
+  list-style: none outside none;
+}
+
+ .wizard ul.steps li {
+  position: relative;
+  float: left;
+  height: 46px;
+  padding: 0 20px 0 30px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 46px;
+  color: #999999;
+  cursor: default;
+  background: #ededed;
+}
+
+ .wizard ul.steps li .chevron {
+  position: absolute;
+  top: 0;
+  right: -14px;
+  z-index: 1;
+  display: block;
+  border: 24px solid transparent;
+  border-right: 0;
+  border-left: 14px solid #d4d4d4;
+}
+
+ .wizard ul.steps li .chevron:before {
+  position: absolute;
+  top: -24px;
+  right: 1px;
+  display: block;
+  border: 24px solid transparent;
+  border-right: 0;
+  border-left: 14px solid #ededed;
+  content: "";
+}
+
+ .wizard ul.steps li.complete {
+  color: #468847;
+  background: #f3f4f5;
+}
+
+ .wizard ul.steps li.complete:hover {
+  cursor: pointer;
+  background: #e7eff8;
+}
+
+ .wizard ul.steps li.complete:hover .chevron:before {
+  border-left: 14px solid #e7eff8;
+}
+
+ .wizard ul.steps li.complete .chevron:before {
+  border-left: 14px solid #f3f4f5;
+}
+
+ .wizard ul.steps li.active {
+  color: #3a87ad;
+  background: #f1f6fc;
+}
+
+ .wizard ul.steps li.active .chevron:before {
+  border-left: 14px solid #f1f6fc;
+}
+
+ .wizard ul.steps li .badge {
+  margin-right: 8px;
+}
+
+ .wizard ul.steps li:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+ .wizard .actions {
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  line-height: 46px;
+  vertical-align: middle;
+  background-color: #e5e5e5;
+  border-left: 1px solid #d4d4d4;
+}
+
+ .wizard .actions a {
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 45px;
+}
+
+ .wizard .actions .btn-prev i {
+  margin-right: 5px;
+}
+
+ .wizard .actions .btn-next i {
+  margin-left: 5px;
+}
+
+ .step-content .step-pane {
+  display: none;
+}
+
+ .step-content .active {
+  display: block;
+}
+
+ .step-content .active .btn-group .active {
+  display: inline-block;
+}
+
+.wizard .steps{position:absolute;top:-30px;}
+.wizard ul.steps li{border-radius:0px;height:20px;}
+.wizard ul.steps  li.active{background: transparent url('/theme/App/img/current_step.png') no-repeat;}
+.wizard ul.steps  li.complete{margin-top: 1px;background: transparent url('/theme/App/img/previous_step.png') no-repeat !important;}
+.wizard ul.steps li{padding: 0px 8px;background:transparent url('/theme/App/img/next_step.png') no-repeat;margin:0px 10px 0px 75px;}
+
+
+/** CSS for Survery Wizard **/
+.surveyWizard  ul.steps  li.active{background: transparent url('/theme/App/img/wizard/current_step1.png') no-repeat;}
+.surveyWizard  ul.steps  li.complete{margin-top: 1px;background: transparent url('/theme/App/img/wizard/previous_step1.png') no-repeat !important;}
+.surveyWizard ul.steps li{padding: 0px 8px;background:transparent url('/theme/App/img/wizard/next_step1.png') no-repeat 0px 2px;margin:0px 10px 0px 0px;}

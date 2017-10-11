@@ -1,0 +1,1 @@
+function show_box(a){$(".widget-box.visible").removeClass("visible");$("#"+a).addClass("visible")};

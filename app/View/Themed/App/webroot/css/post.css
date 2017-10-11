@@ -1,0 +1,11 @@
+/*
+Styles for the Posting page
+*/
+.po_details{font-size: 13px;}
+.po_user {color: #2c589e;margin:0px !important;}
+.po_user a{margin-right:0px !important;}
+.color_63{color: #636363;}
+.color_95{color: #959595;}
+.hashtaglink{margin:0px !important;font-weight: bold;color: #569ed6 !important;}
+.po_activity{font-size: 12px !important;font-family: OpenSans-Regular;color:#959595;}
+.po_activity .liker{font-family: OpenSans-Regular;}

@@ -1,0 +1,360 @@
+/*-----------from_home.css------------*/
+body.body_dash{padding-top: 84px !important;}
+
+
+.dashboard_header{padding:7px 10px 8px 18px;color: #fff;font-size: 24px;border-radius: 4px 4px 0px 0px;}
+.dashboard_profile{min-height: 261px;background-image: url('/theme/App/img/profile_img_bg.jpg');background-repeat: no-repeat;padding: 0px;border-radius: 4px;margin-right: 28px;}
+.dashboard_profile h4{overflow: hidden;margin-top: 6px;margin-bottom: 2px;font-size: 16px;font-family: OpenSans-Bold ;padding: 4px 0px 4px 20px;background-image: url('/theme/App/img/dashboard_loaction_indcator.png');background-repeat: no-repeat;background-position: 1% 50%;}
+.dashboard_profile h4 span{height: 20px;max-width: 325px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.profile_setting{width: 18px;height: 18px;background-image: url('/theme/App/img/profile_setting.png');}
+.profile_details{padding: 10px 25px 10px 10px; background-color: #fff;border: 1px solid #e1e1e1;min-height: 148px;}
+.profile_details h3{margin-top: 0px;margin-bottom: 3px;font-family: OpenSans-Bold ;}
+.profile_details span{font-size: 14px;color: #444444;}
+.profile_details .media a.pull-left{margin-top: 4px;}
+.profile_details p{font-size: 13px;margin-top: 0px;color: #444444;margin-bottom: 0px;max-width: 190px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;}
+.dashboard_profile ul{padding:8px 9px;margin-bottom: 0px;text-align: center;}
+.dashboard_profile .dropdown-menu ul{padding: 0px !important;}
+.dashboard_profile .dropdown-menu ul li{list-style-type: none !Important;}
+.dashboard_profile .dashboard_profile_disease{max-width: 190px !important;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;display: block;}
+.dashboard_profile .owner a{color: #2c589e !important; text-decoration: none !important;max-width: 200px !important;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;line-height: 40px;display: block;}
+
+/*-------------Dash board----------*/
+.dashboard_top_content{margin:0px 0px 28px 0px;padding: 0px;}
+.dashboard_bottom_content{padding: 0px;margin-bottom: 35px;overflow: hidden;}
+.dashboard_middle_content{padding: 0px;overflow: hidden;}
+.middle_contents{padding: 0px;margin-bottom: 30px;overflow: hidden;}
+.my_activity{background-color: #345f7b;margin-right: 30px;border-radius: 4px;min-height: 281px;}
+.dashboard_video{margin-right: 30px;padding: 0px;height: 260px;}
+.middle_contents .dashboard_video{padding: 1px !important;background-color: red;border-radius: 4px;background: url('/theme/App/img/tmp/dasboard_video_bg.png') no-repeat 0px 0px;}
+.dashboard_video #playerXDjWaTHLndHm_wrapper{padding: 2px;height: 261px !Important;border-radius: 4px;background-image: url('/theme/App/img/tmp/dasboard_my_videos.png');}
+/*-------------Dashboard MyPhotos Tile----------*/
+.my_photos{padding: 0px;position: relative;height: 281px;border-radius: 4px;background-color: #525957;}
+.my_photos #dashboard_image_container{
+    text-align: center;
+    background-color: #525957;
+    border-radius: 4px;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.my_photos #dashboard_image_container img{vertical-align: middle;}
+.my_photos .setting{
+    width: 18px;
+    height: 18px;
+    background-image: url('/theme/App/img/profile_setting.png');
+    position:absolute;
+    right:0;
+    top:3px;
+    z-index: 101;
+    cursor: pointer;
+}
+.my_photos #settings_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #525957;
+    border-radius: 4px;
+    z-index: 101;
+}
+.slideshow_enable{margin: 0px 0px 4px 0px;min-height: 42px;}
+.slideshow_enable .qq-upload-button-hover{background-color:#525957 !important; }
+.slideshow_enable .col-lg-7 label{color: #fff;margin-left: 10px;}
+#upload_btn_container{margin-bottom: 4px;}
+#select_default_img_msg{color: #acacac;padding-left:16px;font-size: 13px;}
+#user_dashboard_images_form .btn-primary{filter:none!important; font-weight: bold;padding: 4px 27px;margin-right: 8px;background-color: #70bf54;color: #363636;font-size: 18px;border: none;background-image: none;}
+#user_dashboard_images_form .btn-default{font-weight: bold;text-shadow: none;padding: 4px 18px;background-color: #798380;color: #b6b6b6;font-size: 18px;border: none;}
+#dashboard_slideshow_container .bx-wrapper img{margin: 0 auto;}
+#dashboard_slideshow_container .bx-wrapper .bx-viewport{background-color: #525957;box-shadow: none;border: none;border-radius: 4px;}
+#dashboard_slideshow_container .bx-wrapper .bx-viewport ul li{left: 0px;}
+.my_photos #settings_container form{
+    margin-top: 8px;
+}
+label[for="UserIsDashboardSlideshowEnabled"]{
+    font-weight: normal;margin-bottom: 0px;padding-left: 5px;
+}
+#dashboard_image_list, #cover_image_list {
+    width: 100%;
+    padding-right: 0;
+    float: left;
+}
+#dashboard_image_list li, #cover_image_list li{
+    list-style: none;
+    margin-left: 4px;
+    margin-top: 4px;
+    float: left;cursor: pointer;
+}
+.profile #dashboard_image_list li img, .profile #cover_image_list li img{width: 140px;height: 65px;}
+#dashboard_image_list li img, #cover_image_list li img{width: 132px;height: 61px;}
+#settings_container #upload_btn_container {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    line-height: 14PX;
+    min-height: 18px;
+}
+#uploadmessages{color: #fff;}
+#uploadmessages.success{color: #2baf2b;}
+#uploadmessages.error{color: #d73f44;}
+.profile_tile .profile-bg-settings .profile-bg-message.success{color: #2baf2b;}
+.profile_tile .profile-bg-settings .profile-bg-message.error{color: #d73f44;}
+#settings_container .col-lg-12 {
+    width: 100%;
+    float: left;
+}
+#settings_container .qq-upload-button,.profile_cover_photo .qq-upload-button{
+    padding:3px 0px !important;
+    font-size: 16px;
+    color: #363636!Important;
+}
+#settings_container #upload_btn_container .col-lg-2 {
+    width: 19%;
+}
+#settings_container #upload_btn_container .col-lg-10 {
+    width: 81%;
+    padding: 0px;
+}
+.profile_cover_photo #upload_btn_container {
+    margin-bottom: 10px;
+    min-height: 18px;
+}
+#settings_container #uploadmessages, .profile_cover_photo #uploadmessages{
+    font-size: 11px;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#settings_container #uploadmessages.error, .profile_cover_photo #uploadmessages.error{
+    color: #ff6f73;font-size: 13px;min-height:18px;
+}
+#settings_container #uploadmessages.success, .profile_cover_photo #uploadmessages.success{
+    color: #6fbe53 ;
+}
+#dashboard_image_list li.selected, #cover_image_list li.selected{
+    border: 1px solid #fff;
+    cursor: auto;
+    border-radius: 8px;
+}
+#dashboard_image_list.all_selected li, #cover_image_list.all_selected li{
+    cursor: auto;
+    border: 1px solid #525957;
+}
+#dashboard_image_list li, #cover_image_list li{border: 1px solid #525957;margin-right: 4px;margin-bottom: 4px; position: relative;}
+#dashboard_image_list li img.remove_img, #cover_image_list li img.remove_img{
+    position:absolute;
+    top:0;
+    right:0;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+.my_photos #chat_notification_container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('/theme/App/img/chat_notification_overlay.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 70px;
+    padding-top: 16px;
+    z-index: 100;
+    cursor: pointer;
+}
+#settings_container .slimScrollBar, #settings_container .slimScrollRail{margin-right: 7px;}
+#settings_container .slimScrollDiv, #settings_container .slimScrollDiv #dashboard_image_list{height: 162px !important;}
+#chat_notification_container .col-lg-2{width: 8%;float: left;}
+#chat_notification_container .col-lg-10{width: 92%;float: left;padding-left: 29px;padding-right: 0;}
+#chat_notification_container .name{font-weight: bold;color: #2c589e;}
+#chat_notification_container .sent,#chat_notification_container .message{color: #252525; height: 20px; overflow: hidden;font-weight: bold;}
+#chat_notification_container .arrowchat_smiley{top: 0px;}
+#dashboard_slideshow_container .bx-wrapper img, .my_photos #dashboard_image_container img {
+    min-width: 555px;
+    height: 281px;
+}
+.crop_area {
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px 0px;
+    text-align: center;
+    height: 270px;
+    width: 555px;
+}
+.crop_area img {
+    max-height: 100%;
+    max-width: 100%;
+}
+/*-------------Dashboard MyPhotos Tile----------*/
+
+/*--------------------------Dashboard_Calendar------------------------------------------*/
+.dashboard_calender .zabuto_calendar table{
+    border: none !important;
+    font-size: 14px;
+    font-family: OpenSans-Light !important;
+    color: #fff !important;
+}
+.dashboard_calender .zabuto_calendar .table th, .dashboard_calender .zabuto_calendar .table td{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.dashboard_calender .calendar-dow-header {
+    font-weight: normal !important;
+}
+.dashboard_calender .zabuto_calendar .table tr.calendar-month-header th {
+    padding-top: 0px !important;
+    padding-bottom: 4px !important;
+    font-size: 18px !important;
+}
+.dashboard_calender .zabuto_calendar .table tr td div.day {
+    font-size: 12px;
+    padding: 6px 0px ;
+    text-shadow: 1px 1px 2px #000;
+}
+.dashboard_calender .zabuto_calendar .table tr td.event div.day {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 6px 0px;
+    font-size: 12px;
+    text-shadow:1px 1px 2px #000;
+    background-color: #D85656;
+}
+.dashboard_calender .zabuto_calendar .calendar-month-navigation {
+    padding-top: 0px !important;
+    font-weight: noraml !important;
+    font-size: 14px !important;
+}
+.dashboard_calender .zabuto_calendar .badge-today {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 2px 3px;
+    text-align: center;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.dashboard_calender .zabuto_calendar th{
+    background-color: #D85656 !important;
+}
+.dashboard_calender .zabuto_calendar td{
+    background-color: #D85656 !important;
+}
+.dashboard_calender {
+    color: #fff !important;
+    /*max-height: 225px;*/
+}
+.dashboard_calender .table tbody tr td,.dashboard_calender  .table tbody tr th{
+    line-height: 1 !important;
+    border-top: 0px !important;
+}
+.dashboard_calender .zabuto_calendar .table .day .badge-today {
+    display: inline !important;
+}
+.dashboard_calender div.zabuto_calendar .table tr.calendar-month-header th span {padding-bottom: 8px;}
+.dashboard_calender div.zabuto_calendar .table tr:last-child {border-bottom: none;}
+.calendar-header{font-size: 16px;font-family: OpenSans-Bold ;text-shadow:1px 1px 4px #000;text-decoration: none;color: #fff;}
+.calendar-header:hover{color: #fff;text-decoration: none;}
+div.zabuto_calendar .table tr td div.clicked {background-color: #e29c4a !important;border-radius: 50% !important;}
+
+/*-------------Dash board----------*/
+
+.dashboard_calender{border: 1px solid #c54e4e;width: 50%;background-color: #D85656 !important;padding:9px 10px 0px 10px;height: 261px;}
+.dashboard_events{width: 50%;background-color: #e29c4a;border-radius: 0px 4px 4px 0px;height: 261px;}
+.dashboard_weather{min-height: 261px;background-image: url('/theme/App/img/tmp/dasboard_weather_bg.png');background-repeat: no-repeat;padding: 0px;width: 262px;float: right;}
+.current_temp{text-align: center;font-size: 72px;color: #fff;margin-top: 8px;}
+.current_city{text-align: center;font-size: 12px;color: #fff;font-family: OpenSans-Bold ;height: 35px;overflow: hidden;}
+.current_date{text-align: center;font-size: 16px;color: #fff;margin-bottom: 6px;font-family: OpenSans-Bold ;}
+.dashboard_weather ul{padding: 0px;margin-bottom: 3px;text-align: center;}
+.dashboard_weather .dates li{display: inline-block;padding: 0px 28px;color: #fff;}
+.dashboard_weather .dates{margin-bottom: 10px;}
+.dashboard_weather .temperature,.dashboard_weather .temperature_values{margin-bottom: -3px !Important;}
+.dashboard_weather .temperature li:last-child, .dashboard_weather .temperature_values li:last-child{border-right: none;}
+.dashboard_weather .temperature li,.dashboard_weather .temperature_values li{display: inline-block;width: 82px;color: #fff;border-right: 1px solid #ccb19f;}
+.dashboard_weather .temperature_values li span{margin:0px 6px;}
+.dashboard_events .tile_content{padding: 5px 20px 10px 10px !important;}
+.dashboard_events .dashboard_header{padding: 3px 5px 8px 10px;}
+
+.dashboard_header_link {text-decoration: none !important;}
+
+.hashtag_list{background-color: #2c589e;padding-bottom: 10px!important;border-radius: 4px;padding: 0px;max-height: 573px;min-height: 573px;}
+.hashtag_list .dashboard_header{background-color: #11284e;}
+
+.hashtag_container{padding: 8px 0px 0px 20px;}
+.hashtag_container p{margin-bottom: 5px;font-size: 14px;font-family: OpenSans-SemiBold;}
+.rating_1 a{color: #0294ef !important;text-decoration: none;}
+.rating_2 a{color: #35a84e !important;text-decoration: none;}
+.rating_3 a{color: #b0b539 !important;text-decoration: none;}
+.rating_4 a{color: #b56439 !important;text-decoration: none;}
+.online_friends{background-color: #2c589e;padding-bottom: 14px!important;border-radius: 4px;padding: 0px;min-height: 573px;}
+.online_friends h5.online_friends_username a{max-width: 160px;
+                                             display: inline-block;
+                                             overflow: hidden;
+                                             text-overflow: ellipsis;
+                                             white-space: nowrap;height: 20px;font-family: OpenSans-Bold; color: #fff !important;}
+
+.event_time{padding-bottom: 12px;margin-top: 20px;margin-bottom: 12px; border-bottom: 1px solid #bd833f;}
+.event_time span{color: #fff;font-size: 12px;padding-right: 27px;}
+.event_time p{margin-bottom: 0px;color: #fff;font-size: 12px;}
+.event_time p a{color: #fff;max-width: 145px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;}
+.event_time p a:hover{text-decoration: none}
+.online_friends .media{padding: 7px 20px;margin-top: 0px;}
+.online_friends .media:hover{cursor: pointer;background-color: #214a8c;}
+.online_friends .media h5{font-family: OpenSans-Bold ;color: #fff;padding-left: 5px;}
+#online_friends_list .media a{margin-right: 5px;}
+.online_friends_username{max-width: 150px;overflow: hidden;text-overflow: ellipsis;height: 20px;white-space: nowrap;}
+.search_bar{padding: 15px 10px;background-color: #214a8c;margin-bottom: 15px;}
+.search_bar input{border-radius: 30px;}
+.my_health_dashboard_header{float: left; width: 80%; padding:7px 10px 8px 12px;color: #fff;font-size: 24px;border-radius: 4px 4px 0px 0px;}
+
+.tile_content{padding: 18px 40px 13px 20px;overflow: hidden;}
+.tile_content .media h5{max-width: 120px;height: 18px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;color: #fff;margin: 0px 0px 5px 0px;font-family: OpenSans-Bold ;}
+.my_activity .tile_content,.my_community .tile_content,.my_events .tile_content{
+    overflow: auto;
+    max-height: 214px;    
+    padding: 14px 40px 0 20px;
+}
+.health_dashboard_enter{color: rgb(255, 255, 255);padding-top: 10px;}
+.my_activity .tile_content .media h5{max-width: 100%;height: auto;white-space: normal;overflow: initial;}
+.tile_content .media h5 a{color: #fff; text-decoration: none;}
+.tile_content .media h4 { overflow: hidden; font-size: 14px; color: #fff;margin: 0px 0px 5px 0px;font-family: OpenSans-Bold ;}
+.tile_content .media p{font-size: 12px;color: #fff;margin-bottom: 0px;}
+.tile_content .media{padding-bottom: 10px;margin-top: 10px; }
+.tile_content .media:first-child{margin-top: 0px;}
+.my_events .tile_content .media{border-bottom:1px solid #dd6f48;}
+.my_activity .tile_content .media{border-bottom:1px solid #2c516a;}
+.my_community .tile_content .media{border-bottom:1px solid #6a537c;}
+.my_community .tile_content .media a img, .my_events .tile_content .media a img ,.my_activity .tile_content .media a img{width: 60px;}
+.dashboard_more{margin-top: 6px;padding-right: 12px;color: #fff;background-image: url('/theme/App/img/dashboard_more.png');background-position: 100% 50%;background-repeat: no-repeat; text-decoration: none; cursor: pointer;}
+.dashboard_more a{color: #fff;cursor: pointer;}
+.dashboard_more:hover{text-decoration: none;color: #fff!important; }
+.dashboard_events .dashboard_more{margin-top: -6px;margin-right: 20px;}
+
+
+.dashboard_middle_content .col-lg-9{padding: 0px;}
+.my_health{margin: -50px -15px 0px -15px;border-radius: 4px;background-color: #009245;background-image: url('/theme/App/img/tmp/my_health_bg1.png');background-repeat: no-repeat;min-height: 260px;}
+.my_health_add{padding: 0px 10px 20px 20px;font-size: 16px;color: #fff;margin-top: -55px;line-height: 34px;}
+.my_health #my_health_chart{float: left;  margin-bottom: 0px;margin-left: 1px;}
+.my_health_add button{color: #009245;background-color: #fff;font-family: OpenSans-Bold ;padding: 5px 20px;font-size: 18px;}
+.my_health_add button:hover{color: #009245;}
+.calender_events{overflow: hidden;padding: 0px;margin-right: 28px;border-radius: 4px;width: 444px;float: left;}
+.my_activity .dashboard_header{border-bottom:1px solid #2c516a; }
+.my_pmr{background-image: url('/theme/App/img/tmp/full_bg.jpg');background-position: -435px -316px;min-height: 280px;border-radius: 4px;padding: 0px;}
+.apple_img{background-image: url('/theme/App/img/tmp/apple_img.png');overflow: hidden;background-repeat: no-repeat;background-position: 17px -9px;width: 262px;margin: 0 auto;}
+.pmr_login p{font-size: 18px;color: #fff;}
+.pmr_login{text-align: center;margin-top: 107px; padding: 20px 10px;overflow: hidden;line-height: 36px;}
+.pmr_login button{color: #009245;padding: 5px 20px;font-size: 18px;background-color: #fff;font-family: OpenSans-Bold ;}
+.pmr_login button:hover, .pmr_login button:focus{color: #009245;}
+.my_nutrition{background-color: #6fbe53;background-repeat: no-repeat;background-position: center center; background-image: url('/theme/App/img/tmp/my_nutrition_bg.png');min-height: 280px;border-radius: 4px;padding: 0px;}
+.my_nutrition .dashboard_header{border-bottom:1px solid #65ae4c;}
+.my_community .dashboard_header{border-bottom:1px solid #6a537c;}
+.my_events .dashboard_header{border-bottom:1px solid #dd6f48;}
+.my_community{background-color: #745b88;border-radius: 4px;padding: 0px;}
+.my_events{background-color: #f2794f;border-radius: 4px;padding: 0px;margin-right: 0px !important;}
+/*.my_photos img{border-radius: 4px;}*/
+.my_photos .col-lg-2 img{border-radius: 50%;}

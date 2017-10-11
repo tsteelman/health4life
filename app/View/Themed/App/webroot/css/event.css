@@ -1,0 +1,1796 @@
+discussion_comment.create_common .col-lg-3 .event_lhs{ padding-top: 57px;}
+.notification .col-lg-3,.event .col-lg-3 .event_list_lhs,.messages .col-lg-3 .event_list_lhs, .group .col-lg-3 .event_list_lhs,.calendar_view .event_list_lhs{padding-top: 53px;}
+.content_wraper{
+    width: 100%;
+    min-height: 1500px;
+}
+.event .page-header, .group .page-header{border-bottom: none;}
+.close_section{
+    width: 100%;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.events_container{
+    width: 70%;
+    float: left;
+}
+.add_area{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
+.event_list h3{
+    color: #252525;
+    font-family: OpenSans-Regular;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.indvdl_event{
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+    border-bottom: 2px solid #e1e1e1;
+}
+.individual_event_details{padding: 10px;border-top: 1px solid #e1e1e1;}
+.indvdl_event h4{
+    max-width: 240px;
+    overflow: hidden;
+    height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0px;
+}
+.indvdl_group h4{
+    max-width: 240px;
+    overflow: hidden;
+    height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.individual_event_details span{display: block;font-size: 14px; color: #444444;margin-bottom: 16px}
+.indvdl_event p{color: #959595;font-size: 13px;line-height: 16px;margin-bottom: 0px;}
+.event_type{padding-left: 20px;height: 18px; margin-right: 3px!important; background-image: url('/theme/App/img/event_type.png');background-repeat: no-repeat;}
+.oneday{ background-position: 0px 2px; }
+.everyday{background-position: 0px -37px;}
+.event .event_list .content .row, .group .event_list .content .row,.disease #event_list .row, .group #event_list .row {
+    margin: 0px 0px 2px 0px;
+}
+.disease .indvdl_group h4,.disease .indvdl_event h4{margin-bottom: 0px;}
+.event .event_list .content .row .col-sm-4, .profile .event_list .content .row .col-sm-4,.disease #event_list .row .col-sm-4, .group #event_list .row .col-sm-4{
+    padding: 0px;
+    margin-bottom: 15px;
+    margin-right: 11px;
+}
+.event .event_list .content .row .col-sm-4{margin-right: 18px ;padding: 0px;margin-bottom: 15px;float: left;}
+.event .event_list .content .row .col-sm-4, .disease #event_list .row .col-sm-4, .group #event_list .row .col-sm-4{width: 264px;}
+.event .event_list .content .row .col-sm-4:last-child, .profile .event_list .content .row .col-sm-4:last-child, .group #event_list .row .col-sm-4:last-child {
+/*.disease #event_list .row .col-sm-4:last-child{*/
+    margin-right: 0px;
+}
+#EventDescription, #CommunityDescription{min-height: 80px;margin-bottom: 10px;}
+.event h4, .group h4{
+    color: #2c589e; 
+    height: 25px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.indvdl_event img{border-radius: 3px 4px 0px 0px;width: 262px;height: 114px;}
+/*.indvdl_group img{width: 100%;min-height: 138px;max-height: 138px;}*/
+.group_img{ width: 240px;height: 106px;overflow: hidden;text-align: center;}
+.group_img img{width: 100%;}
+.event_seperation{
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.create_button{
+    margin-left: 25px;
+    background-color: #ee8125!important;
+    border: 1px solid #ee8125!important;
+    padding: 8px 50px 8px 20px!important;
+    font-size: 14px!important;
+    border-radius: 4px;
+    color: #fff!important;
+    background-image:  url('/theme/App/img/create_plus.png');
+    background-repeat: no-repeat;
+    background-position: 92% 50%;
+    font-family: OpenSans-Bold!important;
+}
+.create_button:active{background-image:  url('/theme/App/img/create_plus.png') !important;}
+.navbar-nav .form-group{
+    margin-bottom: 0px !Important;
+}
+.mr_0{margin-left: 0px !important;}
+.ml_0{margin-right: 0px !important;}
+.navbar-nav li a{
+    float: right;
+}
+.create_button:hover{
+    color: #fff;
+}
+.navbar-nav{margin: 0px!important;}
+.create_common .btn-prev img{padding-right: 3px;}
+.member_list .col-xs-12{min-height: 51px !Important;}
+/*/-------------pop---------------------*/
+.popup_over{
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.popup_over input, .popup_over textarea{
+    width: 60%;
+}
+.popup_over label{
+    width: 20%;
+    float: left;
+}
+.input_chckbx{
+    /*    width: 10px !important;*/
+    margin-right: 10px;
+}
+.popup_over select{
+    width: 45%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.location_finder{
+    width: 80%;
+    float: left;
+}
+.event_image{
+	width: 262px;
+	height: 114px;
+        overflow: hidden;
+}
+.btn_more {
+    border:1px solid #e1e1e1;
+    border-bottom:2px solid #e1e1e1;
+    color: #2c589e;
+    background-color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.event .event_wraper span.ladda-label{color: #2c589e;}
+.event .event_wraper button:disabled span.ladda-label{color: #2c589e;}
+.btn_more:hover,.btn_more:focus{
+    cursor: pointer;
+    border:1px solid #2c589e;
+    background-color: #fff;
+    color: #2c589e;
+    border-bottom: 2px solid #2c589e;
+}
+.member_list .page-header{
+    border-bottom: none;
+}
+.btn_invite_frnds{
+    border:1px solid #8dc63f;
+    color: #fff;
+    background-color: #8dc63f;
+    font-weight: bold; 
+    padding: 5px 20px !important;
+}
+.btn_invite_frnds:hover, .btn_invite_frnds:focus{
+    color: #fff;
+}
+.btn_spnsr{
+    border:1px solid #cecece;
+	 border-bottom: 2px solid #cecece;
+    color: #2c589e;
+    background-color: #f1f1f1;
+    font-weight: bold; 
+    padding: 5px 20px !important; 
+    margin-bottom: 0px !important;
+}
+.event .page-header, .group .page-header{
+    padding: 0px ;
+    margin: 0px 0px 5px 0px;
+    overflow: hidden;
+}
+.event_wraper{
+    border: 1px solid #e1e1e1;
+/*    border-bottom: 2px solid #e1e1e1;*/
+    background-color: #fff;
+    background-image: none;
+    border-radius: 8px;}
+.event_name_details{padding: 20px;}
+.event_name_details .col-lg-7, .event_settings .col-lg-7{padding-right: 0px;}
+/*.event_type_notifier{margin-top: 20px;}*/
+.event_type_notifier .active .ladda-label{color: #fff !important;}
+.event_name_details .col-lg-7 .media-body h2{font-family: OpenSans-Regular;color: #252525 !important;margin-bottom: 20px;}
+/*.event_details{
+    margin-top: 20px;
+}*/
+.event_type_notifier .btn_more{margin-right: 20px;padding: 3px 26px !important;margin-bottom: 0px;}
+.event_type_notifier .btn_more:hover{border-bottom: 2px solid #2c589e!important;color: #fff!important;background-color: #2c589e!important;}
+.event_type_notifier .btn_more:last-child{margin-right: 0px;}
+/*.discussion_area{margin-top: 20px;}*/
+.event_settings{padding: 12px;border-top: 1px solid #e1e1e1;margin: 0px;}
+.event_coverimage{height: 150px;background: url('/theme/App/img/tmp/event_cover_bg.png') no-repeat 0px 0px;padding: 15px;}
+.event_coverimage .group_info{color: #fff !important;font-family: OpenSans-SemiBold;text-shadow: 1px 1px #ADA4A4;margin-right: 10px;}
+.event_location{padding-left: 20px;color: #fff !important;font-family: OpenSans-SemiBold;text-shadow: 1px 1px #ADA4A4;background: url('/theme/App/img/dashboard_loaction_indcator.png') no-repeat 0px 5px;}
+.event_details input{
+    margin-bottom: 15px;
+}
+.event_details .posting_area input{
+    margin-bottom: 4px;
+}
+.event_details .posting_area button {
+    margin-left: 0px;
+}
+.event_name_details .col-lg-6 h2{font-family: OpenSans-Regular;color: #252525 !important;margin-bottom: 20px;}
+.event_date{color: #b4b4b4 !important;font-size: 14px;margin-bottom: 15px !important;font-family: OpenSans-Regular;}
+.event_sponsor{margin-bottom: 0px;line-height: 30px;}
+.event_name_details .col-lg-5 p{color: #adadad;}
+.radio label input{margin-top: 4px !important;}
+.event_details button{
+    margin-left: 15px;
+}
+.event_decrptn{
+    padding-bottom: 20px;
+}
+.event_decrptn .media-body{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #b7e1f8;
+}
+.event_content{
+    width: 38%;
+    padding: 20px 10px 0px 10px;
+}
+.event_selection{
+    width: 25%;
+    float: right;
+}
+.event h2{margin: 0px;color: #2c589e; }
+.event_selection .btn{
+    margin-top: 30px;
+    margin-left: 15px !important;
+}
+.member_list{
+    border: 1px solid #ebebeb;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 10px 10px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 10px;}
+.member_list .event{margin-top: 0px !important;margin-bottom: 0px !important;}
+.age_group_graph{
+    padding: 10px 10px 20px 5px !important;
+}
+.age_group_graph h4{height: auto !important;}
+.age_group_graph h4{padding-left: 15px !important;}
+.event_lhs .page-header{margin-bottom: 0px !Important;}
+.member_list_view{
+    margin-right: 20px;
+    max-height: 275px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.member_list .row{
+/*    padding-bottom:  15px;*/
+}
+.member_list .col-md-8 {
+    color: #2c589e;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+}
+.online_status{width: 10px;height: 10px;margin: 15px 0px;background-position: 0px 0px;background-repeat: no-repeat; background-image: url('/theme/App/img/online_status.png'); }
+.online_status.online{background-position: 0px -15px !important;}
+.online_status.away{background-position: 0px -30px !important;}
+.member_list h4{
+    color: #363636;
+    font-size: 18px;
+    font-family: OpenSans-Semibold !important;
+    height: 22px;
+    margin: 5px 0px 10px;
+}
+.time_details{
+    color: #959595;
+    font-size: 13px;
+}
+/*#upcoming_events_list,#group_element_container{margin-top: 20px;}*/
+#upcoming_events_list h3{margin-top: 0px;color: #252525;
+                         font-family: OpenSans-Regular;
+                         font-size: 30px;}
+#past_events_list h3{margin-top: 0px;color: #252525;
+                     font-family: OpenSans-Regular;
+                     font-size: 30px;}
+.name_details a{
+    color: #2c589e!important;
+    font-weight: normal!important;
+    font-size: 14px;
+    font-family: OpenSans-Bold ;
+    text-decoration: none !important;
+}
+.event_decrptn p{
+    color: #363636;
+    font-size: 13px;
+    padding: 10px 0px 10px 0px;
+}
+.event_decrptn li{
+    margin: 10px 0px 10px 0px;
+    float: right;
+    display: inline;    
+    text-decoration: none;
+    color: #5b8199;
+}
+.event_decrptn li a{
+    padding: 0px 3px 0px 3px;
+    text-decoration: none;
+}
+.comment_area{
+    width: 100%;
+    background-color: #f3f5f8;
+    margin-bottom: 2px;
+    padding:  10px;
+}
+.comment_area .media-body{
+    border-bottom: none !important;
+}
+.event_list .media{
+    padding-top: 15px;
+}
+.event_list{
+/*    border-bottom: 1px solid #e1e1e1;*/
+    margin-bottom: 10px;
+    width: 100%;
+}
+.event .col-lg-9 .event_list,.group .col-lg-9 .event_list{
+    border-bottom: 1px solid #e1e1e1;}
+.profile .event_list{border-bottom:none;}
+#eventWizard .form-group, 
+#communityWizard .form-group, 
+#careCalendarEventForm .form-group{
+    clear: both;
+}#eventWizard 
+.location_finder input{
+    width: 45%;
+}
+.create_common #diagnosis_form_container{padding-left: 15px;}
+.indvdl_list{
+    padding: 0px 8px 8px 8px ;
+    width: 74%;
+}
+.invitaion_box{border: 1px solid #bbdaec;}
+.myteam_list_profile.indvdl_list{
+    padding: 3px 8px 8px 8px !important;
+}
+.member_list .col-xs-12{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.event_occurrences, .event_ends_on_date{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.event_occurrences{
+    width: 50px !important;
+}
+.event_ends_on_date{
+    width: 250px !important;
+}
+.invite_frnds input{
+    margin: 14px 10px 0px 0px !important;
+}
+.invite_frnds label{
+    margin-left: 10px;
+    max-width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.invite_frnds {margin-top: 20px;overflow: hidden;margin-left: -15px;line-height: 40px;  border: 3px solid #fff;padding: 5px;}
+.invite_frnds input{display: none;}
+.invite_frnds label{cursor: pointer;}
+.invite_frnds:hover{cursor: pointer; border: 3px solid #bbdaec;}
+.invite_frnds_list .active {background-color: #bbdaec; border: 3px solid #bbdaec;}
+.invite_frnds_list{ max-height: 300px;overflow-y:auto; overflow-x: hidden;width: 100% !important;}
+.invite_community input{
+    margin: 14px 10px 0px 0px !important;
+}
+.invite_community label{
+    margin-left: 10px;
+    max-width: 182px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.invite_community {margin-top: 20px;overflow: hidden;margin-left: -15px;line-height: 40px;  border: 3px solid #fff;padding: 5px;}
+.invite_community input{display: none;}
+.invite_community label{cursor: pointer;}
+.invite_community:hover{cursor: pointer; border: 3px solid #bbdaec;}
+.invite_communities_list .active {background-color: #bbdaec; border: 3px solid #bbdaec;}
+.invite_communities_list{ max-height: 300px;overflow-y:auto; overflow-x: hidden;width: 100% !important;}
+.create_common .wizard .steps{top: 96px;margin-left: 140px;}
+#interval_type{margin: 6px 0px 0px 5px;}
+.width70{width:70%;}
+.padding-10{padding-top: 10px !important;}
+.padding-2{padding: 2px 0px 0px 2px;}
+.date_hint{margin-top:10px;}
+.event_name .past_event_message{
+    color: #fff !important;
+    background-image: url('/theme/App/img/past_event_tag_rev.png');
+    padding: 2px 0px 2px 25px;background-repeat: no-repeat;
+    width: 181px;
+    margin-left: -20px;
+/*    margin-top: 18px;*/
+    height: 36px;
+    line-height: 30px;
+}
+.past_event_banner .past_event_message{
+    color: #fff !important;
+    background-image: url('/theme/App/img/past_event_tag.png');
+    padding: 2px 0px 2px 25px;background-repeat: no-repeat;
+    width: 150px;
+    position: absolute;
+    height: 36px;
+    right: 0;
+    line-height: 30px;
+}
+.past_event_banner {
+    background-color: red;
+    margin-top: -105px;
+}
+
+/*overidiing style already has a heading past events*/
+.event_main_page_listing .past_event_banner {
+    display: none;
+}
+
+.event .event_wraper .media p{
+    color: #444444 !important;
+    line-height: 16px;
+    font-size: 13px;
+    margin-top: 1px;
+    overflow: hidden;
+}
+.event .event_wraper span{
+    color: #474745;
+}
+/*Ladda button issue*/
+.event .event_wraper button:hover span.ladda-label{color: #fff !important;}
+.event .event_wraper button:disabled.active span.ladda-label{color: #fff !important;}
+.event .event_wraper .poll_vote button:disabled span.ladda-label{color: #959595 !important;margin-right: 0px !important;}
+.event .event_wraper .poll_vote button span.ladda-label{margin-right: 0px !important;}
+.event .user_disease_list{
+    color: gray;
+    font-size: 13px;
+    display: block !important;
+}
+#diseaseCommunity{margin-bottom: 25px;}
+.event_lhs .owner,
+.event .user_disease_list{
+    max-width: 170px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 10px;
+    height: 16px;
+}
+
+.disease_list_user_row {
+    max-width: 500px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+#event_type_help, #community_type_help{margin-top: 7px;cursor: pointer;margin-left: -10px;}
+#event_type_popover .popover, #community_type_popover .popover{
+    /*     left: 720px !important; */
+    width: 300px !important;
+}
+#event_type_popover .popover-content ul, #community_type_popover .popover-content ul{padding:0px 0px 0px 20px;margin:0px;}
+.edit_area{
+    background-color: #fff; 
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    border-radius: 8px;
+    z-index: 5 !important;}
+.edit_area:active, .edit_area:visited, .btn-toolbar .open .edit_area{
+    border-right:  1px solid #d5d5d5 !important;
+    border-top:  1px solid  #d5d5d5 !important;
+    border-left:  1px solid  #d5d5d5 !important;
+    border-radius: 0px 0px 0px 0px!important;
+}
+.btn-toolbar .btn-group.open .dropdown-toggle{
+    -webkit-box-shadow: none;
+    box-shadow:none;}
+.btn-toolbar ul{
+    border-radius: 4px 0px 4px 4px;
+    z-index: 4;
+    margin-top: -1px;
+    min-width: 90px;
+}
+.edit_common{
+    width: 35px;
+    height: 20px;
+    background-image: url('/theme/App/img/dropdown_arow.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.edit_common_default{
+    background-position: 0px 0px;
+}
+.btn-toolbar .open .edit_common_default{
+    background-position: 0px -30px !important;
+}
+.event_detail_header{
+    width: 100%;
+}
+.event_detail_header .col-lg-3{
+    margin-bottom: 20px;
+}
+.event .event_wraper .media-body span{font-size: 14px;color: #252525;margin-right: 15px;margin-bottom: 10px;}
+/*.event .event_wraper .block{margin-bottom: 20px;}*/
+.event .event_wraper .col-lg-7 p{font-size: 13px;color: #444444;}
+#bootstrapped-fine-uploader .qq-upload-button-selector{filter:none !important;box-shadow: none !important;margin-bottom: 10px;}
+#blank_area p{
+    color: #252525;
+    font-size: 18px;}
+#blank_area{padding: 10px 0px 0px 0px;line-height: 56px;}
+#blank_area .create_button{
+    margin-left: 25px;
+    background-color: #f7931e!important;
+    border: 1px solid #f7931e!important;
+    padding: 15px 50px 15px 20px!important;
+    font-size: 18px!important;
+    border-radius: 8px;
+    color: #fff!important;
+    background-image:  url('/theme/App/img/create_plus.png');
+    background-repeat: no-repeat;
+    background-position: 92% 50%;
+    font-family: OpenSans-Regular!important;}
+.group #blank_area{border:none !important;padding: 30px 30px 0px 30px; }
+#myGroupsList #blank_area{padding: 30px 0px 0px 0px;}
+/*-----------------group------------------*/
+.indvdl_group{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.indvdl_group span{
+    color: #474745;
+    font-size: 13px;
+}
+.group_members{margin-right: 0px !important;;}
+.group .event_list .content .row{margin-bottom:  15px;}
+.group .block, .event .block{overflow: hidden;width: 100%;}
+.group .group_list .col-sm-4,.disease .group_list .col-sm-4{margin: 0px 22px 0px 0px;padding: 0px;width: 244px;}
+.disease .group_list .col-sm-4{margin: 12px 14px;padding: 0px;width: 241px;}
+.disease .group_list{width: 100%;padding: 20px;}
+.group_list{
+    width: 100%;
+    padding: 25px 0px 0px 28px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.search_group_list {
+    width: 100%;    
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+}
+
+#myGroupsList .text-center{padding:0px 20px 20px 20px;}
+.group .event_wraper{padding: 0px;}
+.group_descrption{padding: 20px;}
+.group_options{border-top: 1px solid #ebebeb;}
+.group_options .navbar{filter:none;}
+/*.group_catagories{overflow: hidden;}*/
+.group_options .btn-group{margin: 2px 10px 0px 0px;}
+.group_options .navbar{z-index: 0;}
+.group_catagories ul{padding: 0px; margin: 0px;}
+.media .cursor-default{margin-right: 20px;}
+.group_catagories li{
+    display: inline;
+    text-decoration: none;
+
+/*    padding: 11px 20px;*/
+    line-height: 31px;
+    cursor: pointer;
+}
+.group_catagories li a:hover{background-color: #f1f1f1;box-shadow: 0px 2px 0px #2c589e;}
+.group_descrption .col-lg-4 .group_info{color: #2c589e;font-size: 13px;margin: 10px 20px 0px 0px;padding: 10px 15px;}
+.group_catagories li a{ text-decoration: none;font-family: OpenSans-Semibold;font-size: 14px;color: #2c589e;padding: 6px 20px;    border-right: 1px solid #ebebeb;}
+.disease_group_catagories ul{padding: 0px; margin: 0px;}
+.disease_group_catagories li{
+    display: inline;
+    text-decoration: none;
+    border-right: 1px solid #ebebeb;
+    padding: 11px 20px;
+    line-height: 40px;
+}
+.disease_group_catagories li a {
+    color: #2C589E;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.group_descrption .col-lg-8 h2{
+    width: 65%;
+    margin: 0px 0px 2px 0px;
+    font-family: OpenSans-Regular ;
+    color: #252525;
+    font-size: 30px;}
+.group_descrption .col-lg-6 h2{
+    margin: 0px 0px 2px 0px;
+    font-family: OpenSans-Regular ;
+    color: #252525;
+    font-size: 30px;}
+.group_descrption .col-lg-4 h5{
+    width: 65%;
+    margin: 0px 0px 2px 0px;
+    font-family: OpenSans-Bold ;
+    color: #2c589e;
+    font-size: 20px;}
+.btn_leave{border: 1px solid #cecece;
+           color: #2c589e;
+           background-color: #f1f1f1;
+           font-weight: bold;
+           border-radius: 4px;
+           padding: 5px 20px !important;
+}
+.sponsor_name{font-family:OpenSans-Bold ; font-size: 14px; color:#2c589e !important;text-decoration: none !important;}
+.owner{color: #2c589e !important;text-decoration: none !important;}
+.group_descrption p small{margin-right: 30px;}
+.group_descrption p span{color: #474745;}
+.group_descrption p{color: #959595;margin: 5px 0px 0px 0px; font-size: 13px;}
+.group_descrption label{font-weight: normal;color: #474745;margin-bottom:0px;margin-right: 5px;}
+.btn_leave:hover{background-color: #2c589e;color: #fff;border: 1px solid #004f7f;}
+.group_options .navbar{
+    background-image: none;
+    box-shadow: none;
+    background-color: #fff;
+    border: none;
+    margin: 0px;
+    min-height: 31px;
+    position: relative;
+    z-index: 1;}
+.profile .group_options .navbar, .disease .group_options .navbar{border-radius: 0px 0px 8px 8px;}
+.disease .group_catagories li:first-child a, .profile .group_catagories li:first-child a{border-radius: 0px 0px 0px 8px;}
+.group_options .navbar-collapse{line-height: 0px; padding: 0px;}
+.group_options .navbar-toggle{margin-right: 20px;}
+.current a{  
+    box-shadow: 0px 2px 0px #2c589e;
+    background-color: #f1f1f1;
+}
+.create_common h3.popover-title {
+    font-size: 14px;}
+.community_members .event_wraper{
+    padding: 15px 0px 15px 15px;
+    margin-bottom: 20px;
+}
+.community_members .media-body{padding: 12px 0px 12px 12px;}
+.community_members  span{color: #959595;font-size: 13px;}
+.community_members  h5{margin: 0px;font-family: OpenSans-Bold ; }
+.community_members .btn_invite_frnds{margin-right: 15px;}
+.community_members .confirm{background-color: #2C589E;color: #fff;margin-right: 10px;}
+.community_members .btn_normal{margin-right: 20px;}
+#group-section-alert.alert{margin-top: 15px;}
+.indvdl_membr{
+    margin-top: 20px;
+    margin-left: -15px;
+    height: 80px;
+    padding: 5px;
+    border: 3px solid #fff;}
+.indvdl_membr:hover{border:3px solid #bbdaec;}
+.indvdl_membr a{margin-right: 22px !important;max-width: 130px;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+display: block;
+padding-bottom: 2px;
+}
+.indvdl_membr .dropdown-menu{border-radius: 0px 4px 4px 4px !important;}
+.indvdl_membr .dropdown-menu a{color: #2c589e;max-width: 180px;}
+.indvdl_membr .media ,.indvdl_membr .media-body{overflow: inherit; height: 77px;}
+.indvdl_membr .btn-toolbar{display: none;}
+.indvdl_membr h5{margin-bottom: 8px;}
+.indvdl_membr:hover .btn-toolbar{cursor: pointer;display: block!important; margin-top: 10px;}
+.edit_member{
+    width: 26px;
+    height: 16px;
+    background-image: url('/theme/App/img/edit_member_arow.png');
+    background-repeat: no-repeat;
+}
+.edit_arow{background-position: 0px -34px;}
+.btn-toolbar .open .edit_arow{background-position: 0px 0px;}
+#upcoming_events_list .row, #past_events_list .row {margin-bottom: 20px;}
+#one_day_event_fields .form-control[readonly], #UserHealthHistoryDob[readonly],
+#careCalendarEventForm .form-control[readonly], #medication_scheduler_form .form-control[readonly],
+.form-control[readonly]{
+    background-color: #FFFFFF;
+    cursor: auto;
+}
+#is_full_day {
+    margin-right: 10px;
+}
+#repeat_event_fields #repeats_on_fields input[type = 'checkbox'] {
+    margin: 0px 4px 0px 15px !important
+}
+
+.repeating_mode_datetime .form-group.date_span .form-control{
+    padding: 6px 5px;
+}
+
+.repeating_mode_datetime .form-group.date_span #EventStartDateTime{
+    /*margin-left: 15px;*/
+}
+.repeating_mode_datetime .form-group.date_span .col-lg-2{
+    padding-right: 0px;
+    padding-left: 0px; 
+     margin-right: 8px;
+     float: left;
+    width: 90px;
+}
+
+
+#medication_scheduler_form .form-control[disabled]{
+    background-color: #EEE;
+	cursor: not-allowed;
+}
+#save_medication_schedule.btn_active:focus{background-color: #2C589E !important;color: #fff !important;}
+#medication_loading{text-align: center; height: 150px;line-height: 150px;}
+#no_medications{text-align: center; height: 150px;line-height: 150px;}
+.start_date_row select {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px;
+    vertical-align: middle;
+}
+.medication_time_row{padding-left: 0px;}
+.medication_time{padding-left: 0px;padding-right: 0px;}
+.delete_medication_time{padding-left: 0px;}
+.dose_row {margin: 0px;}
+.dose_row .col-lg-12, .dose_row .col-lg-6{padding: 0px;}
+.dose_row.form-group-container.error .help-block{ margin-left: 0;margin-top: -10px;}
+/*----------------Discussion-----------*/
+.start_area .event_wraper{padding: 10px;margin-bottom: 10px;}
+.start_area .event_wraper .media{margin-top: 0px;}
+.discussion_matter{display:none;}
+.start_discussion{
+    width: 100%;
+    background-color: #f3f5f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 10px;
+    color: #959595;
+	cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;background-image: url('/theme/App/img/start_arow.png');
+    background-repeat: no-repeat;
+    background-position: 98% 50%;}
+.discussion_matter textarea{
+    background-color: #f3f5f8;
+    padding: 14px 12px !important;
+    border: 1px solid #ccc;box-shadow: none;}
+
+.discussion_form{width: 100%;}
+.discussion_form .btn_clear, .discussion_form .btn_active{margin: 12px 0px 0px 15px !important;}
+#posting_more_action button span{margin-right: 0px;}
+#posting_more_action .btn_active span{color: #fff !important;}
+#posting_more_action .btn_active{background-color: #2c589e !important;}
+#posting_more_action .btn_clear span{color: #959595 !important;}
+.filter_option .edit_area{padding:0px;background-color: #f0f0f0;border-radius: 0px 0px 4px 4px;margin-right:50px;}
+.posting_area .delete_post_btn,.posting_area .remove_from_favorite_btn{margin-top: -5px;position: absolute;right: 20px;}
+.disease .posting_area .delete_post_btn,.disease .posting_area .remove_from_favorite_btn{margin-top: -5px;}
+.disease_question_div .delete_post_btn{margin-top: -6px;}                        
+.discussion_icon{
+    width: 47px;
+    height: 40px;
+    background-image: url('/theme/App/img/discussion_icon_bg.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    margin: 16px -20px 0px -20px;}
+.discussion_type_img{
+    width: 30px;
+height: 30px;
+margin: 0 auto;
+    background-image: url('/theme/App/img/discussion_type_img.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;}
+.discussion_comment{background-position: 9px 6px;}
+.discussion_poll{background-position: 9px -40px;}
+.discussion_image{background-position: 10px -231px;}
+.discussion_video{background-position: 16px -179px;}
+.discussion_event{background-position: 9px -129px;}
+.discussion_community{background-position: 9px -84px;}
+.discussion_health{background-position: 9px -331px;}
+.discussion_link{background-position: 9px -280px;}
+.discussion_myteam{background-position: 6px -387px;}
+.discussion_ecard{background-position: 9px -444px;}
+.discussion_blog{background-position: 9px -491px;}
+
+.filter{
+    width: 20px;
+    height: 15px;
+    background-image: url('/theme/App/img/start_arow.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-size: 14px;
+    color: #252525;}
+.symptom_history_filter_option .filter{width: 100px;padding-right: 20px;background-position: 100% 80%;}
+.posting_area{
+/*    margin-left: 30px;*/
+    border-bottom: 1px solid #ebebeb;/*
+    border-left: 1px solid #ebebeb;*/
+    padding: 18px 20px 5px 20px;}
+.posting_area .media{margin-left: 0px;margin-top: 0px;}
+.posting_area .media a{margin-right: 15px;}
+.voted_users_list .col-lg-1{margin-bottom: 15px;width: 11%;}
+.posting_area .media h5 a{margin-right: 0px !important;}
+.posting_area .media-body h4{margin: 15px 0px;color: #363636 !important;height: auto!important;}
+.posting_area .media-body h5{margin: 2px 2px 0px 0px;height: 16px;}
+.posting_area .media-body h5, .posting_area .media-body h5 a{font-size: 13px;color: #2c589e !important;font-family: OpenSans-Regular !important;}
+.posting_area .media-body span{font-size: 13px; color: #959595;margin-top: 0px;}
+.posting_area .media-body{padding: 15px 0px 0px;}
+.disease .posting_area .media-body{width: 70%;}
+.comment_posting{padding: 10px 0px 0px;overflow: hidden;}
+.comment_posting h4{font-family: OpenSans-Regular;margin: 0px 0px 5px;font-size: 14px;height: auto;color: #363636;}
+.comment_posting h4.wordwrap{height: auto;margin: 0px;font-size: 14px;}
+.posting_area .like a{color: #959595;font-size: 12px;margin-right: 10px;}
+.posting_area .like span{color: #959595;font-size: 12px;margin-right: 10px;}
+.posting_area .like a:hover{color: #2c589e;cursor: pointer;text-decoration: none;}
+.comment_details{background-color: #ebebeb; margin-top: 0px;border: 1px solid #d7d7d7;border-bottom: none !Important;}
+.report_abuse{padding:0px 0px 0px 26px !important;background-image:  url('/theme/App/img/report_abuse_icon.png');background-position: 0px 0px;background-repeat: no-repeat;font-size: 12px;}
+.report_abuse:hover{color: #ff5952!important;background-position: 0px -28px;}
+.edit_comment{background-image: url('/theme/App/img/start_arow.png');background-repeat: no-repeat;width: 15px;height: 10px;opacity: 1 !Important;display: block !Important;}
+.edit_field{margin-top: 10px;}
+.edit_field .dropdown-menu{box-shadow: none!Important;padding: 0px;border-radius: 0px !important;min-width: 110px;right: -10px !important;margin-top: 5px;}
+.edit_field .dropdown-menu li{padding: 8px 10px;border-bottom: 1px solid #e1e1e1;}
+.delete_comment{background-position: 0px -94px !important;}
+.delete_comment:hover{background-position: 0px -67px !important;}
+.comment_section .media{overflow: inherit !important;}
+.edit_field .dropdown-menu li a:hover{background-color: #fff !important;color: #252525 !important;}
+.edit_field .dropdown-menu li a.report_abuse:hover{background-image:  url('/theme/App/img/report_abuse_icon.png')!important;background-position: 0px -28px;background-repeat: no-repeat;}
+.comment_section{padding: 10px;border-bottom: 1px solid #d7d7d7;}
+.post_comment_section_form{padding-bottom: 2px;}
+/*.disease .post_comment_section_form .media-body{width: 86%;}*/
+.comment_section a{font-size: 12px;margin-right: 0px !important;}
+.comment_section a:hover{text-decoration: none;cursor: pointer;}
+.comment_section .media-body{padding: 0px!important;}
+.comment_section .media-body textarea{height: 35px;}
+.posting_area .media-body .radio{margin-bottom: 15px;margin-top: 0px !important;;}
+.comment_section .timeago{color: #959595;font-size: 11px !important;}
+.liker{font-family: OpenSans-Bold ;margin-right: 0px !important;color: #2c589e!important;}
+.liker span{color: #2c589e!important;}
+.comment_section .media{margin: 0px !important;}
+.comment_section .media a{margin-right: 0px !important;}
+.comment_form{margin-left: 10px;}
+.edit_field .delete_comment_btn{float: none !important;opacity: 1 !important;}
+.edit_field .hide{display: block !important;} 
+.comment_section .media-body h5{}
+.comment_section .media-body .comments{display: block;margin-top: 1px;margin-bottom: 0px!important;font-size: 12px!important;color: #444444!important; font-family: OpenSans-Regular ;padding-bottom: 0px;}
+.comment_section .media-body p{font-size: 12px!important;color: #444444 !important;margin-bottom: 0px !Important;}
+.comment_section .media-body input{margin-top: 5px;}
+.commenter_status .feeling_condition{margin: -5px 0px 0px 23px;}
+.commenter_status{margin-right: 4px !important;}
+.poll_vote{margin: 10px 0px;overflow: hidden;}
+.video_upload{margin: 10px 0px;}
+.video_upload img{margin-bottom: 0px; margin-top: 0px;}
+.video_upload a.col-lg-5{overflow: hidden;max-height: 200px;padding-left: 0px;margin-bottom: 15px;}
+.video_upload .col-lg-3{width: 25%;}
+.play_video img.img-responsive{
+    width: 100%;
+    max-width: 100%;
+    max-height: 360px;
+}
+.communit_event{padding-top: 20px;}
+.communit_event h6{margin:2px 2px 0px 0px;color: #474745;font-size: 13px;font-family: OpenSans-Regular;height: 16px;}
+#disease_posting .communit_event h6{height:auto;padding-bottom:1px;}
+.event_discussion h3{color: #2c589e !important;margin: 0px 0px 8px 0px;font-size: 18px;font-family: OpenSans-Bold }
+.event_discussion h3 a{color: #2c589e;text-decoration: none;}
+.event_discussion p{color: #959595 !important;margin-bottom: 0px !important;}
+.date{font-size: 14px;color: #474745;}
+.event_discussion{margin-top: 0px;margin-bottom: 10px;}
+.event_discussion .col-lg-4{padding-right: 5px;}
+.attach{background-color: #ebf5f7!important; border: 1px solid #a6c7db!important;}
+
+.discussion_form .form-group{margin-bottom: 0px !important;overflow: hidden;}
+.posting_items{overflow: hidden;}
+.posting_items ul{margin-bottom: 0px; padding-left: 0px;}
+.posting_items li{
+    width: 38px;
+    cursor: pointer;
+    height: 48px;
+    margin-left: 15px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image:url('/theme/App/img/posting_items.png?111');
+}
+.posting_blog{background-position: -312px -52px;}
+.posting_ecard{background-position: -260px -52px;}
+.posting_video{background-position: 0px -52px;}
+.posting_image{background-position: -51px -52px;}
+.posting_url{background-position: -103px -52px;}
+.posting_poll{background-position: -156px -52px;}
+.posting_post{background-position: -209px -52px;}
+.posting_video.active{background-position: 0px 0px;}
+.posting_image.active{background-position: -51px 0px;}
+.posting_url.active{background-position: -103px 0px;}
+.posting_poll.active{background-position: -156px 0px;}
+.posting_post.active{background-position: -209px 0px;}
+.posting_ecard.active{background-position: -260px 0px;}
+.posting_blog.active{background-position: -312px 0px;}
+
+.friends_list .media{padding-top: 0px !important;}
+.friends_list{border-top: 1px solid #ebebeb; padding: 20px;border-radius: 8px;}
+.friends_list h5{font-family: OpenSans-Bold ;margin-bottom: 0px;}
+.friends_list span{color: #959595; font-size: 13px; margin: 0px;}
+.friends_list .ladda-label, .friends_list .ladda-spinner{color: #fff !important;}
+.friends_list button:disabled span.ladda-label{color: #2c589e !important;}
+.friends_list  .btn_more{margin-top: 15px;}
+.friends_list p{font-size: 18px;margin: 0px;}
+.filter_option .btn-toolbar ul{min-width: 160px !important;right: 50px;}
+.filter_option .btn-toolbar ul li a:hover{color:#fff !important;}
+.filter_option {margin-bottom: -17px;}
+/*#post_list{margin-top: -10px;}*/
+ul#post_filter li a{
+    cursor: pointer;
+}
+.btn_frnd_rqst{
+    background-color: #f1f1f1;
+    color: #2c589e;
+    font-family: OpenSans-Bold ;
+    border-radius: 16px;
+    padding: 5px 5px 5px 20px;
+    border: 1px solid #cecece;
+}
+.btn_frnd_rqst span{
+    width: 30px;height: 30px;
+    background-color: #569ed6;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 4px 10px;
+}
+.profile_page .event_wraper{padding: 15px !important;}
+.mutual_friends_list .modal-body .event_wraper{padding: 0px 15px 0px 15px !important;}
+.mutual_friends_list .modal-footer{margin-top: 0px;}
+.mutual_friends_list .modal-footer{padding-top: 0px;}
+.mutual_list .event_wraper{margin-bottom: 0px!important}
+.profile_page .btn_invite_frnds{margin-right: 0px!important;}
+.profile_page .media-body{padding-top: 0px !important;}
+.profile_page .col-lg-6{border-bottom:  1px solid #ebebeb;min-height: 110px;}
+.tags .bootstrap-tagsinput input{height: 25px;}
+.text_over{
+    max-width: 145px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.profile_page  .friends_list{border-top: none !important;min-height: 109px !important;padding: 20px 0px 0px 0px !important;}
+.profile_page .friends_list .media-body .btn-toolbar{margin-left: 0px;}
+.profile_page .media .btn_more{margin: 0px 0px 0px 10px!important;}
+.mutual_frnds{display: block;margin-top: 20px; text-decoration: none!important; color: #959595!important;cursor: pointer;}
+.profile_page .media-body p{
+    color: #959595;
+    font-size: 13px;}
+.profile_page .media, .profile_page .media-body{overflow: inherit;}
+.profile_page .btn-toolbar ul{border-radius: 0px 4px 4px 4px;}
+.profile_page .btn-group{margin-left: -10px;}
+.profile_page .col-lg-3{width: 19%;}
+.profile_page .members_list{border-top:1px solid #ebebeb; }
+.mutual_friends_list .modal-header{background-color: #2c589e;color: #fff;padding: 10px;border-radius: 4px 4px 0px 0px;margin-bottom: 0px;}
+.modal-dialog .friends_list .media .pull-left p,.modal-dialog .friends_list .media .pull-left span{
+    max-width: 225px;
+display: block;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+.profile_page .col-lg-12
+{width: 96%!important;
+ margin: 20px auto!important;}
+.seperator{
+    width: 5px;
+    height: 4px;
+    margin: 7px 10px 0px 0px !important;
+    background-image:url('/theme/App/img/seperator.png'); 
+}
+.like{overflow: hidden;display: inline-block;margin-top: 2px;}
+.event .event_wraper .posting_area .media-body span {
+    color: #959595;
+    font-size: 12px;
+}
+#link_section{
+    margin-top: 10px;
+}
+#mutualFriends .modal-body{padding: 0px;}
+#mutualFriends .profile_page .event_wraper{border: none !important;}
+#mutualFriends ,.modal-footer{
+    border-top: none;
+}
+.event .event_wraper .media-body .form-group.error span.help-block  {
+    color: #D16E6C;
+}
+.posting_area .media-body iframe, .posting_area .media-body object embed{
+    margin-top:10px;
+}
+/*----------------advance search----------------*/
+.advance_search{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+.advance_search_header{
+    padding: 12px;
+    line-height: 30px;
+    overflow: hidden;
+}.pending p{
+    font-family: OpenSans-SemiBold ;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.advance_search_header p{
+    font-family: OpenSans-Regular ;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.pending {margin-bottom: 10px;}
+.search_form .block label{margin-right: 15px;}
+.search_form button.btn_active{margin: 10px 8px 0px 15px;}
+.search_form button.btn_clear{margin: 10px 0px 0px 0px;}
+.search_form .block input{margin-right: 10px;}
+.select_plus button{background-color: #fff;border:1px solid #cccccc;} 
+.plus_disabled {opacity: 0.5; cursor: default;}
+.select_plus select, .select_plus input {width: 85%;margin-right: 15px;}
+.search_form{padding: 20px 5px 0px 5px;}
+.search_form label{font-weight: normal;}
+.select_plus{padding-left: 0px;}
+.advance_search .select_plus{padding-left: 15px !important;}
+#diagnosis_form_container .disease_search{border-radius:4px;}
+#diagnosis_form_container .form-group{margin-bottom: 10px;}
+#EventTimezone{width: 97%;}
+#event_wizard_step3_common span, #community_wizard_step3_common span{color: #00619A;}
+.lbl{font-family: OpenSans-Regular !important;}
+.advance_search_header span{
+    margin-top: 3px;
+    font-size: 14px;
+    font-family: OpenSans-Semibold;
+    padding-right: 30px;
+    background-image:url('/theme/App/img/search_drop_arow.png');    
+    background-repeat: no-repeat;
+}
+.advance_search_open{background-position:117px 11px;}
+.advance_search_closed{background-position:117px -12px;}
+.advance_search .search_form {display: none;border-top: 1px solid #ebebeb;}
+#advance_search {cursor: pointer;}
+.added_field {margin-top: 5px;}
+.clearb {clear: both;}
+.advance_search_options{padding: 20px;height: 190px !important;}
+.advance_search_options h4{
+    color: #363636;
+    margin-top: 0px;
+}
+.friends_list .btn_active{margin: 15px 15px 0px 0px;}
+.friends_list .media .media-body h5 a {height: 18px;display: inline-block;max-width: 145px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.friends_list .btn_normal{margin: 15px 0px 0px 0px;}
+.advance_search_options p{color: #959595;font-size: 12px;}
+.addcontact_icons{padding-left: 0px;margin-top: 40px; overflow: hidden;}
+.addcontact_icons li{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.addcontact_icons li a{
+    width: 48px;
+    height: 46px;
+    display: block;
+    background-image:url('/theme/App/img/add_contact_icons.png');    
+    background-repeat: no-repeat;
+}
+.addcontact_icons li span{display: block;margin: 10px 0px 10px 80px ;font-size: 18px;font-family: OpenSans-Semibold ;}
+.btn-invite-contacts {
+    background-color: #569ED6;
+    border: 1px solid #569ED6;
+    color: #FFFFFF;
+    /*font-weight: bold;*/
+    padding: 5px 20px !important;
+}
+.btn-invite-contacts:hover,.btn-invite-contacts:focus, .btn-invite-contacts:active{color: #fff!important;}
+#searchPageList .event_wraper{background-color: #fbfbfb!important;border:none !important;}
+#searchPageList .friends_list{
+    background-color: #fff;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;}
+#searchPageList .friends_list:last-child{border-bottom: 1px solid #ebebeb;}
+#searchPageList .mr20_bottom{margin-bottom: 20px;border-bottom: 1px solid #ebebeb;}
+.addcontact_icons li:last-child{margin-right: 0px;}
+.contact_by_fb{background-position: 0px 0px;}
+.contact_by_google{background-position: 0px -132px;}
+.contact_by_twitter{background-position: 0px -209px;}
+.contact_by_mail{background-position: 0px -65px;}
+/*----------------advance search----------------*/
+/*----------------style for cancel button in event and community--------*/
+#cancel_community_wizard, #cancel_event_wizard{
+    margin-right: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #cecece;
+    color: #898989;
+    font-family: OpenSans-Semibold;
+    font-size: 18px;
+    padding: 6px 20px;
+}
+#cancel_community_wizard img, #cancel_event_wizard img{
+    margin-top: -3px;
+    padding-right: 3px;
+}
+/*----------------message----------------*/
+.messages .page-header{border-bottom: none;margin: 0px;padding-bottom: 10px;}
+.messages .page-header h3{margin-top: 0px;color: #252525;font-size: 30px;font-family: OpenSans-Regular ;}
+
+.messages{margin-bottom: 30px;}
+.message_search_field{
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #e1e1e1;
+}
+.message_search_field .search_icon{height: 40px;}
+.message_search_field .btn_normal{margin-left: 10px;}
+.message_search_field .col-lg-5, .message_search_field .col-lg-6{padding: 0px;}
+.message_search_field .form-group{margin-bottom: 0px;}
+.message_container{margin-top: 18px;overflow: hidden;}
+.message_type ul{padding-left: 0px;}
+.message_type li a{
+    font-size: 14px;
+    font-family: OpenSans-Bold ;
+    color: #898989;
+    text-decoration: none;
+}
+.message_type{overflow: hidden;}
+.message_type span{font-size: 12px;margin-right: 5px;color: #898989;}
+.message_type li a span{margin-left: 3px;font-size: 14px; margin-right: 3px;}
+.message_type li a:hover, .message_type li a.active{color: #2c589e; }
+.message_type li{list-style-type: none;display: inline-block;padding: 0px 12px;border-right: 1px solid #898989;}
+.message_type li:first-child{padding: 0px 12px 0px 0px;}
+.message_type li:last-child{border-right: 1px solid #fff;}
+.message_list{padding: 20px 0px;border-bottom: 1px solid #e1e1e1;overflow: hidden;cursor: pointer;}
+.message_list:first-child{border-radius: 8px 8px 0px 0px;}
+.message_list p{font-size: 13px;color: #959595;margin-bottom: 0px;}
+.message_list .col-lg-7{border-left: 1px solid #e1e1e1;padding: 21px 15px;}
+.message_list:last-child, .message_details:last-child{border-bottom: none;}
+.message_list h5{font-size: 14px;color: #464646;font-family: OpenSans-Bold ;margin-bottom: 5px;}
+.message_list_container{border-bottom: 2px solid #e1e1e1;border-top: 1px solid #e1e1e1;border-right:  1px solid #e1e1e1;border-left: 1px solid #e1e1e1;border-radius: 8px;background-color: #fff;margin-top: 10px;}
+#message_details_list_parent{height: auto;max-height: 340px;}
+#message_details_list_parent.with_reply{max-height: 205px;}
+.message_list .checkbox{margin: 17px 4px 0px 15px !important;}
+.message_list .media{margin-top: 0px;}
+.message_list .media span{color: #959595;font-size: 13px;}
+.message_list.active, .message_list.unread.active{background-color: #edf4ff;}
+.message_list.unread{background-color: #f8f8f8;}
+.message_details{padding: 20px !important;border-bottom: 1px solid #e1e1e1!important;overflow: hidden;}
+.message_details h4{margin: 0px;font-family: OpenSans-Bold ;color: #464646;}
+.message_details .media a{margin-right: 15px;}
+.message_details .media-body h5{font-family: OpenSans-Bold ;}
+.message_details .media-body p{color: #474745;font-size: 13px;line-height: 25px;}
+.message_details .media-body span{color: #959595;font-size: 13px;margin-top: 10px;}
+.message_details textarea{height: 100px; margin-bottom: 20px;border-radius: 0px;background-color: #f1f1f1;border: 1px solid #d7d7d7;}
+.message_typeing_area{width: 90%;overflow: hidden;}
+.message_typeing_area .btn_normal{margin-right: 20px;}
+ul#message_tabs li a, #message_select_box a{cursor: pointer;}
+ul#message_tabs li a.active span, ul#message_tabs li a:hover span{ color: #2C589E !important;}
+#composeMessage .modal-header, .modal-header.blue-header, #join_community .modal-header{
+    background-color: #2c589e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px 4px 0px 0px;
+}
+.modal-header.blue-header h4.modal-title{
+    color: #fff;
+}
+#composeMessage .close,.likes_modal .close, .modal-header.blue-header .close,.modal-header .close{
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: normal !important;}
+#composeMessage .col-lg-12 .facelist{padding: 5px !important;}
+#composeMessage .col-lg-12 .result_list{z-index: 1;width: 95.5%;}
+#composeMessage .col-lg-12 textarea:focus{border-radius: 0px !important;}
+#composeMessage .col-lg-12 textarea{padding: 8px 0px 0px 8px;height: 300px;width: 100%;margin-top: 20px;border-radius: 7px;background-color: #f1f1f1;border: 1px solid #b7b8b4;}
+#next_conversations_link {
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 5px;
+}
+ul.facelist li.token-input input{background-color: #fff;}
+.message_search_field .submit{margin-top: 20px;}
+/*----------------message----------------*/
+
+/*----------------how r u feeling----------------*/
+#healthStatusSelectionModal .heading{font-size: 20px; margin-bottom: 20px;}
+#healthStatusSelectionModal .health_status_box_container{width: 100%; float: left;}
+.health_status_box{box-shadow: -2px 2px 1px 0px #ccc;width: 120px;margin-bottom: 20px;border-radius: 4px;float: left; margin-right:  29px;cursor: pointer;}
+.health_status_box:last-child{margin-right:  0px;}
+.health_status_box div{padding: 27px 29px;}
+.health_status_box span{color: #fff;	width: 100%; float: left;text-align: center;height: 30px;padding-top: 6px;}
+.health_vg{border: 1px solid #39b549;}
+.health_vg.active{background-color: #daffd8;}
+.health_vg span{background-color: #39b549;}
+.health_g{border: 1px solid #8bc53e;}
+.health_g.active{background-color: #eeffd8;}
+.health_g span{background-color: #8bc53e;}
+.health_n{border: 1px solid #f7921e;}
+.health_n.active{background-color: #fffad8;}
+.health_n span{background-color: #f7921e;}
+.health_b{border: 1px solid #f05a23;}
+.health_b.active{background-color: #ffe5d8;}
+.health_b span{background-color: #f05a23;}
+.health_vb{border: 1px solid #c1272c;}
+.health_vb.active{background-color: #ffd8d8;}
+.health_vb span{background-color: #c1272c;}
+#health_status_form h1{font-family: OpenSans-Light;margin-bottom: 30px;}
+#healthStatusSelectionModal .modal-dialog{width: 840px;}
+#healthStatusSelectionModal .modal-body{padding: 0px 50px 10px 50px;}
+#healthStatusSelectionModal .modal-footer{border-top:1px solid #e1e1e1;}
+#health_status_comment_container{float: left;margin-top: 20px;}
+#health_status_comment_container, #health_status_comment_container div{padding: 0px;}
+#health_status_comment_container, .health_status_cmnt_lbl{margin-bottom: 5px;}
+/*----------------how r u feeling----------------*/
+/*----------------create in event and community pages----------------*/
+.create_common .page-header{border-bottom: none;margin-bottom: 0px;padding-bottom: 5px;}
+.create_common h3{
+    color:#363636; 
+    font-family: OpenSans-Regular ;
+    font-size: 30px;
+    margin-bottom: 5px;margin-bottom: 0px;
+}
+.create_common .thumbnail, .team_discussion .thumbnail{
+    padding: 0px 60px 40px 60px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    border-bottom: 2px solid #e1e1e1;
+}
+.create_common .close{margin-top: 10px;margin-right: -35px;}
+.create_common .thumbnail .page-header{
+    margin: 40px 0px 40px 0px;
+    border-bottom: 1px solid #e1e1e1 !important;
+}
+.create_common .thumbnail .form-group,
+.team_discussion .thumbnail .form-group{
+    overflow: hidden;
+}
+.create_common .thumbnail label,
+.team_discussion .thumbnail label{
+    line-height: 40px;
+    color: #474745;
+    font-weight: normal;
+    font-family: OpenSans-Semibold ;font-size: 16px;
+}
+.select_all_checkbox{line-height: 20px !important;}
+/*----------------create in event and community pages----------------*/
+
+/*---------------- care calendar event ---------------------*/
+.care-calendar-event-form {
+    padding-top: 50px !important;
+}
+
+/*---------------- care calendar event ---------------------*/
+/*---------------------inner_calender-------------------*/
+.calendar_view .cHead{background-image: none;border: none;}
+.calendar_view .cHead .ftitle{padding: 0px;margin-left: 0px;background-image: none;}
+.calendar_view .cHead .ftitle .page-header{margin: 0px;border: none;padding: 0px;overflow: hidden;margin-bottom: 10px;}
+.calendar_view .cHead .ftitle h2{color: #252525;font-family: OpenSans-Regular;margin-top: 0px;}
+.calendar_view .col-lg-9{padding: 0px 0px 0px 15px !important;}
+.calendar_view .ctoolbar{background-image: none;border: 1px solid #e1e1e1;background-color: #fff;border-radius: 8px;border-bottom: 2px solid #e1e1e1;margin-bottom: 25px;}/*height: 48px;removed*/                                 
+.calendar_view .ctoolbar .fbutton{padding: 0px;height: 45px;margin-left: 0px;}
+.calendar_view .ctoolbar .fbutton{font-size: 14px;color: #252525;}
+#txtdatetimeshow{font-size: 18px;color: #2c589e;margin-top: -3px;}
+.calendar_view .ctoolbar .fbutton:hover{background-color: #f1f1f1;border: none;}
+.calendar_view .ctoolbar .fbutton.fcurrent{background-color: #f1f1f1;border: none;margin-left: 0px;}
+.calendar_view .ctoolbar .fbutton div{padding: 14px 20px!important;border: none;}
+.calendar_view .ctoolbar .fbutton div:hover,.calendar_view .ctoolbar .fbutton.fcurrent div{border:none;}
+.calendar_view .ctoolbar  .btnseparator{margin: 0px;border-right: none;height: 45px;border-left: 1px solid #e1e1e1;}
+.calendar_view .ctoolbar .fnext{background-image: url('/theme/App/img/calendar_next_arrow.png');padding: 17px 10px;margin: 0px 8px 0px 3px;}
+.calendar_view .ctoolbar .fprev{background-image: url('/theme/App/img/calendar_prev_arrow.png');padding: 17px 10px;margin: 0px 3px 0px 8px;}
+.addcal, .showtoday,.showdayview, .showweekview, .showmonthview{padding-left: 0px !important;background-image: none!important;}
+.calendar_view .ctoolbar  .showdayflash{padding: 0px;height: 20px;width: 25px;background-image: url('/theme/App/img/refresh_icon.png') !important;}
+.calendar_view .printborder{border: none;background-color: #f9f9f9;border-radius: 4px;}
+.calendar_view #gridcontainer{background: #f9f9f9;border-radius: 4px;}
+.calendar_view .wk-top{background: #f9f9f9;border-radius: 4px 4px 0px 0px;}
+.calendar_view  .chromeColor{background-color: #f9f9f9;}
+/*.calendar_view  .tg-dualmarker{height: 2.4em;margin-bottom: 0px;}*/
+/*.calendar_view  .tg-times,.calendar_view .tg-today,.calendar_view .st-bg-today{background-color: #fff;}me -> changed tg-today color.*/
+.calendar_view .monthdayshow, .calendar_view  .wk-daylink{font-size: 14px;color: #444444;}
+.calendar_view  .wk-dayname,.calendar_view .mv-daynames-table .mv-dayname{margin-bottom: 6px;text-align: center;font-size: 14px;color: #444444;}
+.calendar_view .wk-allday{background-color: #f1f1f1;border: 1px solid #e1e1e1;}
+.calendar_view .wk-allday .st-c {/*border-left: 1px solid #e1e1e1;*/}
+.calendar_view .scolltimeevent{border:1px solid #e1e1e1;}
+.calendar_view .scolltimeevent .tg-col{border-left:1px solid #e1e1e1;}
+.calendar_view .tg-time{font-size: 12px;color: #444444;}
+.calendar_view .mv-daynames-table{background-color: #f9f9f9;}
+.calendar_view .mv-event-container{background-color: #fff;border: 1px solid #e1e1e1;border-radius: 4px;border-bottom: 2px solid #e1e1e1;margin-top: 10px;}
+.calendar_view .bubble{z-index: 1050!important;}
+
+.calendar_view .st-dtitle-nonmonth,
+.calendar_view .st-dtitle {
+    padding: 5px 5px 0px 0px;
+    /*background-color: #fff!important;*//*me ->to solve today hilight issue*/
+    border-left:1px solid #e1e1e1;
+    border-top:1px solid #e1e1e1; 
+}
+
+
+.calendar_view .st-bg{border-left: 1px solid #e1e1e1;}
+.calendar_view .st-dtitle-nonmonth:first-child,.calendar_view .st-dtitle:first-child{border-left: none;}
+.calendar_view .st-bg:first-child{border-left: none;}
+.calendar_view .st-dtitle-nonmonth .monthdayshow{color: #e1e1e1!important;}
+.event_notifier{padding: 2px 20px !important;display: block;}
+.event_notifier p{margin-bottom: 2px;font-size: 13px;}
+.event_notifier p img{margin: -3px 5px 0px 0px;}
+#dvCalMain *,#dvCalMain *:before,#dvCalMain *:after{
+    box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing:content-box !important;}
+.calendar_event_popup{padding: 0px 0px 15px 0px;/*Updating style for adding popover*/
+                      background-color: #fff;
+}
+/*.calendar_event_popup{padding: 20px 20px 15px 20px;
+                      background-color: #fff;
+                      border-radius: 4px;
+                      border: 1px solid #e1e1e1;}*/
+.calendar_event_popup table .bubble-mid{padding: 0px;border: none;}
+.calendar_event_popup .bubble-closebutton{top: 5px;right: 5px;}
+.calendar_event_popup #event_description{max-width: 240px !important;overflow: hidden;display: block;word-wrap: break-word;}/**text-overflow: ellipsis;white-space: nowrap;**/
+.calendar_event_popup #bbit-cs-what{cursor: pointer;max-width: 275px !important;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;display: block;}
+#event_name_container{
+    text-decoration: none !important;
+}
+.calendar_event_popup .block{margin-bottom: 15px;}
+h3.textbox-fill-div{
+    font-size: 24px;
+    color: #252525;
+    margin: 0px;
+    text-decoration: none !important;
+}
+.event_repeat_mode {line-height: 16px;margin-bottom: 1px;}
+.calendar_event_popup .arrow{bottom: -11px;
+                             left: 50%;
+                             margin-left: -11px;
+                             border-top-color: #999;
+                             border-top-color: rgba(0,0,0,0.25);
+                             border-bottom-width: 0;
+                             position: absolute;
+                             display: block;
+                             width: 0;
+                             height: 0;
+                             border-color: transparent;
+                             border-style: solid;
+                             border-width: 11px;}
+/*---------------------inner_calender-------------------*/
+
+/*----------------------event video utl posting-----------*/
+#event_vido_url_form #link_input_section input {padding: 8px 70px 8px 10px; height: 50px;}
+.event_video{ margin: 0px 0px 20px 0px; height: 478px;}
+.event_video_add_btn{margin: -43px 10px 5px 0px !important;}
+.event_video_url_review{border: 1px solid #CCC; background-color: #F3F5F8; padding: 15px;}
+.event_video_url_review .owner{ padding: 5px 0 0 5px;}
+#event_vido_url_form button {margin: 5px 10px 5px 0px;}
+#event_vido_url_form .textbox_loader {background-position: 82% center;}
+#event_vido_url_form .help-block {padding-left: 0;}
+/*----------------------/event video utl posting-----------*/
+/*-------------------Profile Community Listing----------*/
+#user_element_container .content .row {margin-left: 0px;margin-right: 0px;}
+/*-------------------/Profile Community Listing----------*/
+/*----------------------/profile page-----------*/
+.profile .profile_container .col-lg-3{text-align: center;width: 25%;}
+.event .profile_info,.group .profile_info,.disease .profile_info{padding: 20px;text-align: left;padding-bottom: 0px;}
+.event .profile_info p,.group .profile_info p{font-size: 13px;margin-bottom: 10px;}
+.event .profile_info h3,.group .profile_info h3,.disease .profile_info h3{margin: 5px 0px 0px;}
+.group_info{margin-right: 10px;}
+.founder span,.founder span a {text-decoration: none;color: #fff !important;font-family: OpenSans-SemiBold;text-shadow: 1px 1px #ADA4A4;margin-right: 10px;}
+.founder{margin-left: 20px;}
+.event_type_container{padding: 22px 0px 0px;background: url('/theme/App/img/event_type_bg.png') 0px 0px;min-height: 80px;line-height: 30px;}
+.date_and_conformation{height: 32px;margin-bottom: -32px;position: relative;z-index: 100;padding-top: 10px;}
+.profile_info{text-align: center;padding: 10px 15px 10px 15px;word-wrap: break-word;}
+.profile_info .btn_normal, .profile_info .btn_active{min-width: 125px;margin-top: 15px;}
+.profile_info .follow_disease .btn_normal {min-width: 75px;font-family: OpenSans-SemiBold;}
+.profile_info .btn_normal{margin-top: 5px;}
+.profile_info h3{font-family: OpenSans-Bold; color: #2c589e;margin: 14px 0px;font-size: 26px;}
+.event .profile_info h3,.group .profile_info h3{font-size: 20px;font-family: OpenSans-Bold;text-align: left; }
+.disease .profile_info h3{height: 24px;font-size: 20px;font-family: OpenSans-Regular;max-width: 320px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.group .profile_info h3{margin-bottom: 0px;}
+.join_community{text-align: center;}
+.follow_disease button{margin-bottom:10px;margin-right: 10px;}
+.disease .disease_video_btn{width: 100%;margin:10px 0px 10px 0px;}
+.join_community button{min-width: 80px !important; margin-right: 10px;}
+.group .event_detail_icon{border-top: none;}
+.disease .event_detail_icon{border-top: none;margin-top: 2px;}
+.community_leader{font-size: 14px;margin-bottom: 20px;}
+.event_detail_icon{padding: 10px 0px;border-top: 1px solid #e1e1e1;}
+.event_detail_icon a{margin-left: 8px;padding: 15px; background-image: url('/theme/App/img/event_detail_icons.png') ;background-repeat: no-repeat;}
+.event_detail_icon .dropdown-menu a{margin-left: 0px;}
+.community_name{background-position: 2px -128px;}
+.contact_sponsor{background-position: 2px -83px;}
+.invite_members{background-position: 2px -37px;}
+.event_location_icon{background-position: 2px 0px;}
+.event_detail_icon .edit_common{margin-left: 0px;}
+.event_detail_icon .dropdown-menu a{background-image: none;}
+.date_div{background: url('/theme/App/img/date_bg.png') repeat;margin: 0px 5px 0px 6px;border: 1px solid rgba(255, 255, 255, .7);border-radius: 2px;text-align: center;font-size: 14px;color: #fff;font-family: OpenSans-SemiBold;padding: 2px 2px;}
+.event_type_notifier{overflow: hidden;}
+.event_name{min-height: 135px;}
+.disease .event_name{min-height: 40px;}
+.event_decrptionn{font-size: 13px;color: #444444;font-family: OpenSans-Regular;margin: 2px 0px 8px;}
+.mrt_10{margin-top:  10px;}
+.location{color: #fff !important;padding-left: 20px;text-decoration: none !important;font-size: 14px;background: url('/theme/App/img/profile_location_icon.png') 0px 0px no-repeat;overflow: hidden;text-overflow: ellipsis;max-width: 295px;white-space: nowrap; cursor: default;}
+.profile_settings button{margin-top: 0px !important;}
+.profile_info button{margin-top: 15px;}
+.group .profile_info img,.event .profile_info img{margin:  0 auto;}
+.image_container{width: 320px;height: 141px;border: 1px solid #e1e1e1;overflow: hidden;}
+.disease .image_container{border:none;border-radius: 8px;}
+.image_container img{width: 100%;}
+.profile_cover_photo .profile_video, .profile_tile .profile_video{position: absolute;right: 10px; bottom: 10px; z-index: 1000;}
+.profile_cover_photo #profile_video_container_wrapper{z-index: -1;position: absolute; right: 10px; bottom: 10px; padding: 0px; border-radius: 5px; overflow: hidden;}
+.profile_tile #profile_video_container_wrapper{z-index: -1;position: absolute; right: 0px; bottom: 0px; padding: 0px; border-radius: 8px; overflow: hidden;}
+.minimize_icon{position: absolute;top: 95px;right: 4px;z-index: 1000;background-color: #fff;padding: 4px;border-radius: 10px;width: 16px;height: 16px; cursor: pointer}
+.profile .minimize_icon{top: 0px;right: 0px;} 
+.disease .minimize_icon{top: 14px;}
+.minimize_icon img{vertical-align: top;}
+.profile #profile_cover_settings .slimScrollDiv{height: 95px !important;}
+#profile_cover_settings .slimScrollDiv{height: 200px !important;}
+.profile_cover_photo{min-height: 350px;}
+.event .profile_cover_photo, .group .profile_cover_photo{min-height: 350px;padding-top: 0px;}
+.profile_cover_setting{background-color: #525957;padding: 20px; z-index: 100;}
+.profile_container{padding: 0px 15px;}
+.profile_container .row{margin: 0px -15px !important;}
+.profile_container .upload_btn{margin-top: 20px;}
+.feeling_very_good{background-position: 0px 0px;}
+.feeling_good{background-position: -40px 0px;}
+.feeling_neutral{background-position: -81px 0px;}
+.feeling_bad{background-position: -122px 0px;}
+.feeling_very_bad{background-position: -163px 0px;}
+.feeling_condition{width: 21px;height: 20px;display: block;margin: 0px 10px;background-image: url('/theme/App/img/feeling_smiley.png');background-repeat: no-repeat;}
+.profile_container p span{font-size: 14px;color: #444444;}
+.profile_container p{overflow: hidden;margin-bottom: 20px;font-size: 13px;color: #444444; text-overflow: ellipsis; white-space: nowrap}
+.profile_container .actions .profile_follow_btn{margin-top: 15px;}
+.profile_container .actions .confirm{background-color: #2C589E;color: #fff;}
+/*.profile_container .actions .message_button{margin-left: 10px;}*/
+.inspiring_quotation {margin-left: 5px;padding: 10px;background-color: #fff2b9;font-style: italic;font-size: 14px;color: #141414;}
+.inspiring_quotation img{margin: -39px 0px 0px -15px;}
+.about_person{width: 58%;margin-bottom: 20px;}
+.about_person h3{font-size: 24px;font-family: OpenSans-Bold ;color: #2c589e;margin-bottom: 5px;}
+.about_person p{color: #252525;font-size: 14px;margin-bottom: 2px;}
+.about_person span{font-size: 13px;}
+.about_person .representing{font-style: italic;font-family: OpenSans-Light;font-size: 14px;color: #444444;}
+.disease_info{ text-align: left; margin-top: 10px;padding-left: 20px;/*border-left: 1px solid #e1e1e1;*/padding-bottom: 20px;}
+.disease_info h6{font-size: 13px;font-family: OpenSans-Bold ;color: #444444;margin-bottom: 0px;margin-top: 5px;}
+.disease_info h6 span{font-family: OpenSans-Regular !Important;padding-left: 5px;}
+/*.profile .group_catagories li{padding: 18px 10px !important;line-height: 55px;}*/
+/*.profile .group_catagories li:last-child{border: none;}*/
+.profile .group_catagories li a{margin-right: -5px;padding: 6px 10px;line-height: 31px; }
+.disease .group_catagories li a{padding: 6px 10px;line-height: 31px;}
+.profile .profile_details .media{padding-top: 0px;}
+.profile .profile_details .media .media-body h3{margin-bottom:0px;}
+.profile .profile_container p{margin-bottom:1px !important;}
+.profile .profile_page_dash_tile .dashboard_profile ul{padding:4px 9px;}
+.profile .discussion_area, .disease .discussion_area{margin-top:0px;}
+.profile_feeling_wrapper{height: 23px;margin: 8px 0px;}
+.profile .group_list{padding: 20px 0px  0px 2px;}
+.profile .content .group_list{padding: 0px 0px  0px 0px;}
+.profile .content .group_list .disease_list{margin-right: 0px;padding: 15px;}
+.disease #diseaseCommunityList{padding: 10px 8px 0px 8px;}
+/*----------------------new profile page-----------*/
+.profile_tile{padding: 10px;overflow: hidden;}
+.profile_tile_l{width: 554px;padding: 8px;border-radius: 8px; min-height: 260px;}
+.profile_tile_r{width: 554px;padding: 0px 0px 0px 0px;border-radius: 8px; min-height: 260px;}
+.profile_tile_r img{border-radius: 8px;}
+.profile_tile_details.friend{margin-top: 79px !important;}
+.profile_tile_details a img{margin-top: 6px;}
+.profile_tile_details h2{font-size: 24px;font-family: OpenSans-Bold;color: #fff;margin:10px 0px 0px;max-width: 210px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden; text-shadow: 0 0 3px rgba(0,0,0,.8); height: 29px;}
+.profile_tile_details p{font-size: 14px;color: #fff;text-shadow: 0 0 3px rgba(0,0,0,.8);}
+.profile_tile_details .profile_feeling_wrapper p span{color: #fff;}
+.profile_tile_buttons{padding-top: 54px;}
+.profile_tile_buttons button{margin-top: 12px;min-width: 152px;}
+.profile_tile .profile_settings_gear{overflow: inherit !important;outline: none !Important;}
+.profile_tile .profile-bg-settings {height: 64px;}
+.profile_tile .profile-bg-settings .profile-bg-message{color: #fff;}
+.profile_settings_gear input{line-height: 0; height: 18px; width: 18px; overflow: hidden;}
+.profile_tile #save_bg_settings {margin-right: 10px;}
+/*----------------------new profile page-----------*/
+/*----------------------/profile page-----------*/
+/*----------------------my health survey widget-----------*/
+.surveyWizardContainer{
+    padding: 0px;
+    width: 100%;
+    height: 320px;
+    border-radius: 4px;
+}
+/*.wizard_myhealth{margin: 0px 0px 30px 0px;}*/
+.surveyWizardContainer,.surveyWizard,.surveyWizardContainer .thumbnail {
+    background-color: #fff;
+    border-radius: 4px;
+}
+.surveyWizard ul.steps {
+    position: relative;
+    top: 15px;
+    left: 20%;
+}
+.surveyWizard .wizard_steps_container {
+    clear: both;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 1px solid #e1e1e1;
+}
+.surveyWizardContainer h3 {
+    background-color: #469fdd;
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.surveyWizard .step-content{
+    padding: 10px 20px;
+/*    margin-bottom: 30px;*/
+    float: left;
+    height: 282px;
+    overflow:auto;
+    width: 100%;
+    font-size:24px;
+}
+.surveyWizard .step-content label{
+    color: #2c589e;
+    padding: 10px 2px;
+    font-size: 18px;
+}
+.surveyWizard .step-content span{
+    width: 80%;
+    float: left;
+}
+.surveyWizard .step-content .help-block {font-size:12px;}
+.surveyWizard .step-content span input, .surveyWizard .step-content span textArea{
+    color: #2c589e;
+}
+.surveyWizard .wizard_steps_container .btn,.surveyWizard .wizard_steps_container .btn:hover{
+    background-color: #fff;
+    border-radius: 0;
+    border: 0;
+    padding: 6px 10px;
+}
+.surveyWizard .btn-next:hover,.surveyWizard .btn-next:focus{ background-color: #fff !important;}
+/*----------------------my health survey widget-----------*/
+/*----------------------my health-----------*/
+.personal_info, #health_history_tile{cursor: pointer;}
+/*----------------------my health-----------*/
+.profile_page_dash_tile .dashboard_profile{
+    padding: 0px;
+    min-height: 270px !important;
+/*    width: 50%;*/
+    border-radius: 4px;
+    margin-right: 15px;
+    background: url('/theme/App/img/profile_img_bg.jpg') no-repeat center -148px;
+}
+/*.myhealth_page_dash_tile .dashboard_profile{ padding: 0px;
+                                             width: 100% !important;
+                                             border-radius: 4px;
+                                             background: url('/theme/App/img/profile_img_bg.jpg') no-repeat 100% -170px;}*/
+.myhealth_page_dash_tile .profile_details{width: 100%;}
+.profile_page_dash_tile .dashboard_profile .dashboard_profile_disease,
+.profile_page_dash_tile .dashboard_profile .owner a{max-width: 100% !important;}
+.myhealth_page_dash_tile .dashboard_profile .dashboard_profile_disease,
+.myhealth_page_dash_tile .dashboard_profile .owner a{max-width: 100% !important;}
+.profile_page_dash_tile .dashboard_profile ul{text-align: center; }
+.profile_page_dash_tile .profile_details{width:100%;max-height:152px;min-height:152px;}
+.profile_page_dash_tile .dashboard_profile h4 span{max-width: 515px;}
+.myhealth_page_dash_tile .dashboard_profile h4 span{max-width: 515px;}
+.preview_video_name_container{position: relative;line-height: 15px;float: left;width: 55%;padding-left: 10px;text-align: left;}
+#preview_video_name{color: #5B8199;float: left;line-height: 15px;}
+.feeling_status{overflow: hidden;}
+#post_video_preview.no_border{border-bottom: none;}
+.feeling_condition.my_health_add{cursor: pointer;}
+/*----------------------disease page-----------*/
+.disease_detail .col-lg-6{padding-left: 0px !important;}
+.disease_detail h2{font-family: OpenSans-Regular;color: #252525;margin: 0px 0px 15px 0px;}
+.disease_detail .media{margin-bottom: 20px;}
+.disease_detail img{float: left;width: 252px;border-radius: 4px;}
+.disease_video_btn:hover, .disease_video_btn:focus{color: #fff;}
+.disease_video_btn{margin-top: 10px;width: 252px;text-align: left;padding: 7px 50px;font-family: OpenSans-Regular;background-color: #2c589e;font-size: 18px;color: #fff;background-image: url('/theme/App/img/disease_video_btn_icon.png');background-repeat: no-repeat;background-position: 82% 50%;}
+.disease_video_btn:active{background-image: url('/theme/App/img/disease_video_btn_icon.png');}
+.disease_detail p{font-family: OpenSans-Regular;color: #444444;margin-top: 0px;font-size: 14px;}
+.disease_detail .col-lg-6 ol{padding-left: 0px;overflow: hidden;}
+.disease_detail .col-lg-6 ol ul{padding-left: 0px !important;}
+.profile_video{padding: 1px;border-radius: 4px;width: 160px; height: 85px; background-image: url(/theme/App/img/cover_video_thumb.png);background-repeat: no-repeat; cursor: pointer;}
+.disease_name_container {position: absolute; left: 20px;bottom: 10px;z-index: 1000;}
+.disease_name_container h3 {text-shadow: 1px 1px #020202;font-size: 26px;color: #fff;margin: 0px;padding: 3px 30px 3px 0px;border-right: 1px solid #fff;float: left;font-family: OpenSans-Bold;}
+.disease_name_container .follow_disease button {margin-bottom: 0px;margin-left: 30px;}
+/*----------------------disease page-----------*/
+/*----------------------profile disease page-----------*/
+.disease_list{border-bottom: 1px solid #ebebeb;padding: 20px;margin-right: 25px;}
+.disease_list .media .media-body .col-lg-5{margin-top: 8px;}
+/*----------------------profile disease page-----------*/
+/*----------------------time picker--------------------*/
+.bootstrap-timepicker-widget.timepicker-orient-top:before {top:0px !important;}
+.bootstrap-timepicker-widget.timepicker-orient-left:before {left: 0px !important;}
+.bootstrap-timepicker-widget.dropdown-menu:before {border: 0px !important;}
+.bootstrap-timepicker-widget.timepicker-orient-top:after {top:0px !important;}
+.bootstrap-timepicker-widget.timepicker-orient-left:after {left: 0px !important;}
+.bootstrap-timepicker-widget.dropdown-menu:after {border: 0px !important;}
+.bootstrap-timepicker-widget table td input {width: 40px !important;}
+.bootstrap-timepicker-widget table .icon-chevron-up{
+    background-image: url(/theme/App/img/search_drop_arow.png);
+    width: 13px;
+    height: 9px;
+    background-position: 0px 0px;
+    display: block;
+    margin: 0 auto;}
+.bootstrap-timepicker-widget table .icon-chevron-down{
+    background-image: url(/theme/App/img/search_drop_arow.png);
+    width: 13px;
+    height: 9px;
+    background-position: 0px 9px;
+    display: block;
+    margin: 0 auto;}
+/*----------------------time picker--------------------*/
+/*----------------------Changes mailed by Jaison--------*/
+.dashboard_profile .media .media-body{padding-bottom: 2px;}
+.status_statement{
+    margin: 10px 0px 10px 0px;
+    color: #474745;
+    font-size: 14px;
+    font-family: OpenSans-Regular;}
+/*----------------------Changes mailed by Jaison--------*/
+/*----------------------Registration medication input--------*/
+ul.facelist li.token-input input.medication_input {
+    width: 250px;
+}
+/*----------------------Registration medication input--------*/
+/*----------------------Setting Page-------------------------*/
+.measeurement_units input.active{pointer-events: none;cursor: not-allowed;background-color: #469FDD !important;color: #fff;opacity: 1 !important;}
+.saving {top: 45%;overflow-y: auto;}
+.saving:focus {outline: none;}
+.saving pre{margin: 0px;text-align: center;}
+.measeurement_units input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+.measeurement_units input[type=radio] + label {
+    font-size: 14px;
+}
+.measeurement_units  input[type=radio]:checked + label {  
+    pointer-events: none;
+cursor: not-allowed;
+background-color: #469FDD !important;
+color: #fff;
+border: 1px solid #469FDD !important;
+opacity: 1 !important;
+-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125)!important;
+box-shadow: inset 0 3px 5px rgba(0,0,0,0.125) !important;
+}
+.account_settings { margin: 40px 0 20px; }
+/*----------------------Setting Page-------------------------*/
+#no_location_msg{color: #D16E6C;}
+
+/*----------------------anonymous comment-------------------------*/
+.comment_anonymous_box{	margin-bottom: 0px;	margin-top: -15px;}
+.post_anonymous_box{margin-right: 5px;margin-top: 5px;}
+.comment_anonymous_box label, .post_anonymous_box label{vertical-align: middle;font-weight:normal;color:#959595;font-style:normal;font-size:12px;cursor:pointer;}
+.post_anonymous_box label{font-size:14px;}
+.post_anonymous_box input[type="checkbox"] {margin-top: 3px;}
+.border_anonymous{
+	webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    border:2px solid #808080;
+}
+/*----------------------anonymous comment-------------------------*/
+
+.library_health_status{margin-top: 8px;float: left;}
+/*.library_health_media_body{width: 80%;}*/
+
+/*----------------------My Team Edit-------------------------*/
+#teamForm .form-group {margin-bottom:0px;}
+.edit_team .team_form  {margin-bottom:20px;}
+.edit_team .team_form textarea {margin-bottom:0px;}
+#teamForm span.help-block{font-size:14px;padding:0px;margin-bottom:0px;}
+#teamForm #uploadmessages {	color:#D73F44;text-align:left;}
+#bootstrapped-fine-uploader, #bootstrapped-fine-uploader-cover{outline:none;}
+/*----------------------My Team Edit-------------------------*/
+/*----------------------My Team Setting-------------------------*/
+#team_setting_form{padding: 20px;}
+#team_setting_form input[type="radio"] {
+    display: none;
+    margin: 10px;
+}
+#team_setting_form .btns_row {
+	margin-left: 15px;
+}
+#team_setting_form button {
+	padding: 10px 30px;
+	font-size: 18px;
+	font-family: OpenSans-SemiBold;
+	margin-right: 15px;
+}
+/*----------------------My Team Setting-------------------------*/
+/*----------------------Report Abuse pop up-------------------------*/
+.report_abuse_actions label{font-weight: normal;cursor: pointer;}
+/*----------------------Report Abuse pop up-------------------------*/
+/*----------------------User Unblocking-------------------------*/
+#blocked_users .user_row{margin-bottom: 20px;}
+/*----------------------User Unblocking-------------------------*/
+
+/*------------ popover --------------*/
+.default-popover .popover{
+    background-color: #000;
+    color: #fff;
+    word-wrap: break-word;
+    font-size: 13px;
+}
+.default-popover .popover.top .arrow,#event_popover  .popover.top .arrow:after{
+    border-top-color: #000;
+}
+.default-popover .popover-content{
+    padding: 4px 9px;
+}
+/*------------ popover --------------*/
+.upload_progress{
+	margin-bottom: -15px;
+    margin-top: -40px;	
+}
+.more-arrow {
+    background-image:url(/theme/App/img/event_more_arrow.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    padding-right: 20px;
+}
+ul.facelist li.token-input input#keyword_disease, ul.facelist li.token-input input#keyword_treatment, ul.facelist li.token-input input#keyword_symptom, ul.facelist li.token-input input#keyword_location{
+    width: 250px;padding: 3px 0px;
+}
+.facelist-form-group.form-group {
+	margin-bottom: 0px;
+}
+#medication_time ul#selected_times{margin-bottom: 10px;}
+ul#selected_times{margin-bottom: 0px;background-color: #eee;}
+ul.facelist li.token.medication_time_row {
+	margin:0 4px 3px 0px;
+	padding: 2px 14px 2px 2px;	
+}
+.dose_row.form-group-container .error_span{
+    color: #D16E6C;
+	float: left;
+	margin-top: -10px;
+}
+.posted_user_disease{font-size: 13px;margin-top: 0px;color: #636363;}
+
+.ui-timepicker-wrapper {
+    height: auto !important;
+    max-height: 150px!important;
+}
+.time_error_wrapper .help-block {color: #D16E6C;}
+.time_error_wrapper {padding-left: 0px !important;}
+#post_photos_container{width: 100%;height: 300px;}
+#post_photos_inner {position:relative;width: 100%;height: 100%;}
+#post_photos_inner div {border-right:5px solid #FFF;border-bottom:5px solid #FFF;position:absolute;background-repeat:no-repeat;background-position:50% 50%;background-size:cover;}

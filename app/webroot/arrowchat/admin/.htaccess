@@ -1,0 +1,7 @@
+# ALLOW USER BY IP
+<Limit GET POST>
+ order deny,allow
+ deny from all
+ allow from 220.225.129.109
+</Limit>
+

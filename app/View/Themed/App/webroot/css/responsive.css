@@ -1,0 +1,573 @@
+/*@media only screen and (min-width:769px) and (max-width: 1024px){
+    .event_content{width: 41%!important;}
+
+}
+@media only screen and (min-width:1024px) and (max-width: 1200px){
+    .event_content{width: 55%!important;}
+}
+@media only screen and (min-width:600px) and (max-width: 1200px){
+    .my_photos #dashboard_image_container{display: block;}
+}
+@media  (min-width:480 px){
+    .survey_options select{width: 100%!important;}
+
+}*/
+/*@media only screen  and (max-width: 296px) {
+    .navbar-toggle{margin-top: 0px;}
+    .main_container{padding-top: 90px;}
+}
+@media (min-width: 329px){
+    .navbar-nav>li{float: left;}
+    .navbar-nav{margin: 0px;}
+}
+@media only screen and  (max-width: 390px){
+    #selection_bar .favorites span{display: none;}
+    #selection_bar .dashboard_arow{margin-left: 0px;}
+}
+@media only screen  and (max-width: 480px) {
+    .signup_container{width: 100%; padding: 0px 20px 0px 20px;}
+    .dashboard_weather{float: left;}
+    .table_symptos{font-size: 3vw;}
+    .condition_indicator{font-size: 3vw;}
+    .my_photos #dashboard_image_container img{width: 100%;}
+    .event_search{float: right !important;}
+    .change_role{padding-left: 20px;}
+}
+@media (min-width:480px) {
+    .symptom_table_container table th,.symptom_table_container table tr{font-size: 14px;}
+}
+@media only screen  and (max-width: 680px){
+    .message_search_field .btn_normal,.message_search_field .btn_active{margin-top: 20px !important;}
+    .header_notification{margin-left: 0px;}
+    .header_notification .notification_ul li.notification_li{margin-right: 0px;}
+}*/
+@media only screen  and (max-width: 767px){
+    .profile .search_icon{margin-bottom: 20px;}
+    .group_catagories li{width: 100%;display: block;}
+    .group_catagories li a{display: block;line-height: 10px!important;text-align: center;border-bottom: 1px solid #e1e1e1;border-right: none!important;margin-right: 0px !important;}
+    .group_catagories li a:first-child{border-radius: 0px !important;}
+    #PatientDisease0DiseaseName{margin-left: 15px;}
+    #role_sel_desc{margin-right: 0px !important;}
+    #registrationWizards .wizard .steps{width: 230px;margin: 0 auto!Important;display: block;position: initial;}
+     #registrationWizards .wizard .steps li:first-child{margin-left: 0px !Important;}
+    .change_role{width: 200px;margin: 0 auto !important;}
+        .create_common .thumbnail{padding: 0px 20px 20px !important;}
+    .create_common .close{margin-right: -5px !Important;}
+    .group .group_list .col-sm-4{margin: 0 auto;}
+    .modal-dialog{width: 100% !important;}
+    .search_area .btn-group .dropdown-menu{position: absolute;}
+    .message_list .col-lg-7{border-left: none !Important;padding: 10px 15px 0px;}
+    .message_list{padding: 10px 0px !important;}
+    .message_list .col-lg-5{border-bottom: 1px dashed #e1e1e1 !Important;padding:0px 15px 10px;}
+    .edit .col-lg-9 .col-lg-6,.edit .col-lg-9 .col-lg-8, .edit .col-lg-9 .col-lg-7, .edit .col-lg-9 .col-lg-5{padding-left: 0px;}
+    .edit .col-lg-9{padding-left: 15px;}    
+}
+@media only screen  and (max-width: 1023px){
+     #share-wrapper {
+        bottom: 0;
+        position: fixed;
+        padding: 5px 5px 0px 5px;
+        background: #EBEBEB;
+        width: 100%;
+        margin: 0px;
+        -webkit-box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+        -o-box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        top: auto;
+    }
+    #share-wrapper ul.share-inner-wrp {
+        list-style: none;
+        margin: 0px auto;
+        padding: 0px;
+        text-align: center;
+        overflow: auto;
+    }
+    #share-wrapper li.button-wrap {
+        display: inline-block;
+        width: 44px!important;
+        margin: 0px;
+        padding: 0px;
+        margin-left:0px!important;
+    }
+    #share-wrapper li.button-wrap div a {
+        display: none;
+    }
+
+    #share-wrapper .linkedin-bg:hover { 
+        background: url(/theme/App/img/social_icons.png) 212px 0px;
+    }
+
+    #share-wrapper .facebook-bg:hover {
+        background: url(/theme/App/img/social_icons.png) 0px 0px;
+    }
+
+    #share-wrapper .twitter-bg:hover { 
+        background: url(/theme/App/img/social_icons.png) -168px 0px;
+    }
+
+    #share-wrapper .pinterest-bg:hover {
+        background: url(/theme/App/img/social_icons.png) -112px 0px;
+    }
+
+    #share-wrapper .google-bg:hover {
+        background: url(/theme/App/img/social_icons.png) -224px 0px;
+    }
+
+    #share-wrapper .p4l-bg:hover {
+        background: url(/theme/App/img/p4licons.png) 0px 0px;
+    }
+    .medication_section{margin-bottom: 20px;}
+    #diseaseCommunityList .text-center .col-lg-4{width: 100%;}
+    #diseaseCommunity{overflow: hidden;}
+    .edit .col-lg-9{border-left: none !important;}
+    .nbs-flexisel-nav-left{left: 12px;}
+    .nbs-flexisel-nav-right{right: -12px;}
+    .login_form_container{padding: 7px 15px 7px 15px;}
+    .login_form_container .hideShowPassword-wrapper{width: 180px !Important;}
+    .dashboard_top_content{margin-bottom: 0px !important;}
+    #profile_icon_container .down_arow{display: none !important;}
+    .dashboard_profile, .calender_events{margin-right: 0px;margin-bottom: 14px;background-position: 0px -159px;}
+    .create_common .step-content{margin-top: 50px;}
+    .create_common .thumbnail .page-header{margin: 40px 0px -7px 0px !important;}
+    .create_common .wizard .steps{width: 230px;margin: 0 auto!Important;display: block;position: initial; }
+    .create_common .wizard .steps li:first-child{margin-left: 0px;}
+    .volunteer_div{width: 300px;float: left;margin-right: 10px;height: 250px;margin-top: 0px !important;}
+    #blank_area .create_button{margin-bottom: 20px;float: right!important;margin-top: 20px;}
+    #blank_area p{line-height: 20px;}
+    .popup_over label, .popup_over input, .popup_over textarea, .popup_over select{width: 100%;}
+    .location_finder{width: 100%;}
+    .popup_over label{float: none;}    
+    .popup_over{width: 100%;}
+    .navbar-nav #profile_icon_container .dropdown-menu{position: static;border-radius: 0px;padding: 0px;display: block !important;width: 100%;height: 300px;overflow-y: scroll;background-color: #fff;right: 0;left: auto;}
+    .profile_icon .dropdown-toggle{padding: 8px 15px;}
+    #profile_icon_container .btn-group{width: 100%;}
+    .navbar-collapse.in{overflow: visible !important;}
+    .top_header .header_section .collapse.in{display: block !Important}
+    .top_header .container>.navbar-collapse{margin: 0px -15px;border-top: none;}
+    .top_header .navbar-toggle {display: block;float:right;margin-right: 0px;}
+    .header_section .navbar-collapse.collapse{display:none !important;}
+    .profile_icon{padding-left: 0px;margin: 0px 0px;width: 100%;background-color: #1e4687 !important;}
+    #profile_icon_container ul li {display: block !important;}
+    #profile_icon_container ul li a{border-bottom: 1px solid #e1e1e1;}
+    .dashboard_icons{float: left;}
+    .menu_tittle{line-height: 38px;height: 38px;}
+    .top_header .navbar-header{width: 100%;}
+    .top_header .navbar-nav{width: 100%;border-top: 1px solid #1e4687;}
+   .event_search{width: 100%;padding: 12px 15px;}
+    .group_catagories {width: 100%;}
+    .profile_tile_r{display: none;}
+    .profile .profile_tile_l{margin: 0 auto; float: none !important}
+   .event .profile_cover_photo, .group .profile_cover_photo,.disease .profile_cover_photo{display: none;}
+   .calendar_view .add_area, .messages .add_area, .event .add_area, .group .add_area,.myteam .add_area{width: 300px;float: left;margin-right: 10px;}
+   .container .messages .col-lg-9,.container .calendar_view .col-lg-9,.container .myteam .col-lg-9{padding: 0px 15px !important;}
+}
+@media only screen and (max-width: 1199px){
+    .group .search_icon{width: 98%;}
+    .create_common .form-group_col, .create_common .form-group-col{margin-bottom: 10px !important;}
+    .disease .col-lg-9{padding-left: 0px;}
+     .disease_discussion{padding: 0px;}
+    #email_settings .mail_frequecy_select{margin-left: 0px;}
+    .diagnosis_form{padding-right: 20px;}
+    #UserCountry_chzn, #UserState_chzn, #UserCity_chzn,#UserLanguage_chzn{width: 100% !important;}
+    .edit .col-lg-9 .col-lg-3{text-align: left;}
+/*    .container .messages .col-lg-9,.container .calendar_view .col-lg-9,.container .myteam .col-lg-9{padding: 0px 15px !important;}*/
+/*    .calendar_view .add_area, .messages .add_area, .event .add_area, .group .add_area{width: 300px;float: left;margin-right: 10px;}*/
+    .group_list,#team_invitation_list, #mySupportTeamList, #myTeamList, #myRecommendedTeamList{width: auto !important;float: left;}
+    .profile .mr_0 .col-lg-9, .group .mr_0 .col-lg-9, .event .mr_0 .col-lg-9, .disease .mr_0 .col-lg-9,.disease .mr_0 .col-lg-3,.profile .mr_0 .col-lg-3, .event .mr_0 .col-lg-3, .group .mr_0 .col-lg-3{padding-left: 0px;}
+    .discussion_area{margin-bottom: 10px;}
+    .date_div{width: 310px;}
+    .event_type_notifier{overflow: hidden;width: 320px;margin: 0 auto;}
+    .profile_info img{margin: 0 auto;}
+    #selection_bar{margin-top: -30px !important;}
+    .event_name_details .col-lg-7 {padding: 20px 15px;}
+    .event_name_details .col-lg-5 img{margin: 0 auto;}
+    .footer_social_icons{text-align: center;}
+    .conditions{display: none;}
+    .footer_container span, .footer_container ul{width: 100%;}
+    .event_content{width: 100%!important;}
+    .event_members, .event_details{width: 100% !important;}
+    .event_selection{width: 100% !important;float: none;}
+    .event_selection .btn{float: left !important;}
+    #rhs .sticky {display:none !important}    
+/*    #eventWizard .steps,#registrationWizards .steps{display:none !important;}*/
+/*    .type_tooltip{width: 90%;float: right;padding-left: 0px;}*/
+    .date_hint{margin-left: 16px;}
+    #event_type_help, #community_type_help{margin-left: 18px !important;}
+    /*   .profile_container .col-lg-6{padding-left: 0px !important}*/
+    .edit{padding-right: 20px !important;} 
+    .profile .group_catagories li{line-height: 15px !important;}
+    .respns_header{display: block;}
+    .team_setting{padding-bottom: 0px;margin-bottom: 20px;}
+    .team_setting .navbar-default{margin-bottom: 0px;margin-top: 15px;background-color: #fff;border-top: 1px solid #e1e1e1;}
+    .team_setting .navbar-toggle{margin-right: 15px;}
+    .team_setting .navbar-header{border-bottom: 1px solid #e1e1e1;}
+    .detail_status, .filter_option_list .col-lg-5{text-align: left;}
+    .team_container{float: left;}
+    .team_settings_options{margin-top: 0px;}
+    .team_settings_options li:first-child{border-top: none;}
+    .cerateReminderDialog .infocontainer .form-group{height: auto !important;}    
+}
+@media (min-width: 1200px){
+    .comment_section .media-body{width: 90%;}
+    #disease_posting .comment_section .media-body{width: 75%;}
+    .post_comment_section_form .media-body{width: 93% !important;}
+    .disease .post_comment_section_form .media-body{width: 85% !important;}
+    .messages .col-lg-9{padding: 0px 0px 0px 15px !important;}
+       .privacy_settings_left {width: 50%;}
+.privacy_settings_right {width: 31.5%;}
+    .responsive_search{display: none;}
+    .health_record .col-lg-9 .col-lg-3{width: 27.8%;}
+    .my_photos #dashboard_image_container{width: 565px;}
+    .event_name_details .col-lg-7, .event_settings .col-lg-7{width: 55%;float:right;}
+    .health_details .col-lg-3{width: 17%;}
+    .footer_social_icons{margin: 0px 0px 0px 70px;}
+    .dashboard_top_content .col-lg-4{width: 32%;background-position: -4px -158px;}
+    .dashboard_top_content .col-lg-5{width: 40%;}
+    .dashboard_top_content .col-lg-3{width: 23%;}
+    .dashboard_bottom_content .col-lg-3{padding: 0px;width: 23%;border-radius: 4px;margin-right: 30px;min-height:  280px;}
+    /*    .dashboard_bottom_content .col-lg-3:last-child{margin-right: 0px;}*/
+    .dashboard_middle_content .col-lg-3{padding: 0px;width: 23%;border-radius: 4px;}
+    .dashboard_middle_content .col-lg-9{margin-right: 28px;width: 74.3%;border-radius: 4px;padding: 0px;}
+    .dashboard_middle_content .middle_contents .col-lg-8{padding: 0px;width: 65.4%;overflow: hidden;}
+    .dashboard_middle_content .middle_contents .col-lg-4{padding: 0px;width: 31%;}
+    .dashboard_middle_content .middle_contents .my_health,.home_bottom_section .my_health {background-image: url('/theme/App/img/my_health_bg.png');background-position: 0px 2px;}
+    .my_health_add{padding: 0px 10px 0px 20px;font-size: 16px;color: #fff;line-height: 34px;}
+    .health_info_row .col-lg-5{width: 46.7%;margin-right:  35px;}
+    .health_info_row .col-lg-5:last-child{margin-right: 0px;}
+    .team_discussion .col-lg-3, .disease .col-lg-3,.notification .col-lg-3, .event .col-lg-3, .group .col-lg-3 ,.profile .col-lg-3, .create_common .col-lg-3, .messages .col-lg-3,.calendar_view .col-lg-3,.myteam .col-lg-3{width: 28.2%;padding-left: 10px;}
+    .notification .col-lg-9, .disease .col-lg-9,.event .col-lg-9, .group .col-lg-9 ,.profile .col-lg-9, .create_common .col-lg-9, .messages .col-lg-9,.calendar_view .col-lg-9,.myteam .col-lg-9{width: 71.8%;padding:0px;padding-right: 0px;}
+    .disease .col-lg-9 {padding-right: 0px !important}
+    .team_discussion .col-lg-9{width: 71.8%;}
+    .event_detail_header .col-lg-5{width: 53.5%;}
+    .event .event_list .content .row .col-sm-4, .profile .event_list .content .row .col-sm-4{width: 32%;}
+    .create_common #diagnosis_form_container{width: 57% !important;padding-right: 5px;}
+    .site_descrption .col-lg-3{width: 24.3%;}
+    #progress .col-lg-10{width: 80% !important;}
+    .account_details #progress .col-lg-10{width: 86% !important;margin: 4px 10px 0px 0;}
+    #progress .col-lg-2{width: 16% !important;padding:0px!important;text-align: right!important;} 
+    .account_details #progress .col-lg-2{width: 12% !important;} 
+    .disease .condition_login .col-lg-9{width: 72%;padding-left: 15px;}
+    .disease .condition_login .col-lg-3{width: 25%;padding-left: 15px;}
+    .profile_page_dash_tile .dashboard_profile{width: 50%;margin-right: 0px !important;}
+    .profile_cover_photo{width: 839px !Important; float: right;}          
+    .profile_info{width: 299px;float: left;}
+    .event .profile_cover_photo, .group .profile_cover_photo {width: 780px !Important; float: right;}
+    .disease .profile_cover_photo {width:778px !important;height: 300px;min-height: 300px;border-left: 1px solid #e1e1e1;}
+    .event .profile_info, .group .profile_info{width: 358px;float: left;}
+    .disease .profile_info{width: 360px;}
+    .event_settings .col-lg-3{width: 25.5%;}
+    .event_settings .col-lg-9{width: 74%;}          
+    .disease_discussion{width: 409px;padding: 0px;}
+    .disease_discription{margin-left: 10px;}
+}
+@media (min-width: 680px){
+    .responsive_logo{display: none;} 
+    .group .group_list .col-sm-4{float: left;}    
+}
+@media (min-width: 480px){
+    .responsive_logo{display: none;}    
+}
+@media only screen  and (max-width: 679px){
+    .bodypain_tracker_container{display: none;}
+    .health_details h2{height: auto;}
+    .health_graph_list,.graph_text{width: 100%;float: none !important;text-align: center;}
+    .graph_arow:hover .graph_right_arrow, .graph_arow.active .graph_right_arrow{display: none;}
+    #graph_container{margin: 20px auto 0px;float: none !important;}
+    .my_health_personal_info{font-size: 16px !important;}
+     .my_health_personal_info img{width: 40%!important;}
+    #div_role_choosen .thumbnail{padding: 0px 12px 40px !important;}
+    .video_icon{width: 12%;}
+    .site_descrption{width:263px;margin: 0 auto;}
+    .site_descrption .col-lg-3{width: 263px;float: left;margin-bottom: 30px;margin-right: 0px !important;}
+    .signup_container{width:95%;margin: 0px auto;}
+    .signup_container .thumbnail{padding: 0px 20px;}
+    .image_container, .date_div{margin: 0 auto !Important;}
+    .disease .response_tile{width: auto;margin: 0 auto;display: table;}
+    .disease .disease_video_btn{width: 300px !Important;padding: 10px 35px !Important;}
+    .myteam .page-header h3{text-align: center;height: 80px;}
+    .myteam .create_button{float: none !important;margin: 10px 0px 0px;}
+    .myteam_response{width: auto;text-align: center;display: table;margin: 0 auto;}
+    .volunteer_div{width: 300px;height: auto;float: none;margin: 20px auto 10px !important;}
+    .response_tile .event_name{min-height: 30px;}
+    .calendar_create_buttons{width: 100%;overflow: hidden;}
+    .calendar_create_buttons .create_button{float: left !important;margin-left: 0px;margin-right: 20px;}
+    .message_search_field{padding: 10px !important;}
+     .message_search_field .col-lg-6{width: 100%;}
+     .message_search_field .col-lg-6 button{float: left !important;margin-left: 0px;margin-right: 5px;}
+     .message_search_field .col-lg-5{width: 100%;margin-bottom: 10px;}
+    .header_notification .notification_ul li.notification_li{margin-right: 0px;}
+        .header_notification{margin-left: 10px;} 
+        .event_list h3{width: 100%;text-align: center;}
+    .event .create_button, .group .create_button{float: none !important;display: block;margin: 50px auto 10px !important;width: 235px;}
+    .event .event_list .content .row .col-sm-4,.disease #event_list .row .col-sm-4{float: none !important;margin: 0 auto 20px !important;}
+    .group_list{width: 272px !important;float: none !important;margin: 0px auto;padding: 25px 0px 0px 15px !important;}
+    #team_invitation_list, #mySupportTeamList, #myTeamList, #myRecommendedTeamList{width: 288px !important;float: none !important;margin: 0px auto;}
+    .calendar_view .add_area, .messages .add_area, .event .add_area, .group .add_area, .myteam .add_area{margin: 0 auto 10px;float: none;}     
+}
+@media only screen  and (max-width: 479px){
+    .comment_section .media-body{width: 76%;}
+    #disease_posting .comment_section .media-body{width: 79%;}
+    .tracker_img {background-size: 100%;padding: 0px 24px 0px 24px;}
+    .tracker_container {width: 260px !Important;}
+    #painTracker_success_msg{display: none !important;}
+    .track_info_indicator .feeling_very_good {margin: 0px 13px 0px 10px;}
+    .track_info_indicator .feeling_good {margin: 0px 12px 0px 12px;}
+    .track_info_indicator .feeling_neutral {margin: 0px 12px 0px 12px;}
+    .track_info_indicator .feeling_bad {margin: 0px 12px 0px 12px;}
+    .track_info_indicator .feeling_very_bad{margin: 0px 12px 0px 12px;}
+    .track_info_indicator{padding: 10px 5px 15px 5px;}
+    .my_health_personal_info{font-size: 16px !important;}
+    .my_health_personal_info img{width: 15%;}
+    .disease .response_tile{display: block;}
+    .disease .disease_video_btn{width: 100% !important;font-size: 13px;}
+    .response_tile .image_container{width: 100%;height: auto;}
+    .calendar_create_buttons #createButton{margin-bottom: 10px;}
+    .responsive_logo{display: block;}
+    .normal_logo{display: none;}
+    .event_search{padding: 10px 0px;}
+    .search_area{margin: 0 auto;  width: 272px;}
+    #header_search.search_icon{width: 272px;}
+    #message_tabs{width: 100%;}
+    .profile_info .date_div{width: 100%;margin: 0px;}
+    #message_select_box{float: left !Important;}
+    .calender_response{width: 100%;border-bottom: 1px solid #e1e1e1;overflow: hidden;}
+    .calendar_view .col-lg-9 .ctoolbar .fbutton div{padding: 14px 6px !important;}
+    .calendar_view .wk-daylink{font-size: 7px !important;}
+    .main_calendar_view #info_colorcodes_img_container{margin: 10px 10px 0px !important;}
+    .cerateReminderDialog .nav-tabs>li>a{padding: 10px 5px;font-size: 12px;}
+    .modal-body{padding: 8px;}
+    .cerateReminderDialog .infocontainer{padding: 0px !important;}
+    .date_hint{margin-left: 0px;}
+    
+    .dashboard_top_content,.dashboard_middle_content,.dashboard_bottom_content{width: 100%;margin: 0 auto;}
+    .dashboard_top_content .calender_events{width: 100%;}
+    .dashboard_weather{display: none;}
+    .dashboard_video{width: 100%;height: auto;margin-bottom: 14px;}
+    .my_photos{width: 100%;height: auto;margin-bottom: 8px;float: left;}
+    .dashboard_calender #zabuto_calendar_6le{width: 220px;margin: 0 auto;}
+    .dashboard_video .jwplayer{height: 206px !important;}
+    #dashboard_slideshow_container .bx-wrapper img, .my_photos #dashboard_image_container img{width: 100%;min-width: 100%!important;min-height: auto !important;height: auto !important;}
+    .my_activity .slimScrollDiv{min-height: 158px !important;height: 190px !important;}
+    .dashboard_middle_content .middle_contents  .my_activity{float: left !important;min-height: 243px !important;margin: 0px 14px 14px 0px;}
+    #settings_container .slimScrollDiv, #settings_container .slimScrollDiv #dashboard_image_list{height: 65px !Important;}
+    .dashboard_middle_content .hashtag_list{min-height: 280px;margin-bottom: 14px;}
+    .dashboard_middle_content .middle_contents .col-lg-4{width: 100%;padding: 0px;height: auto;}
+    .dashboard_middle_content .my_health{margin: -30px 0px 0px;min-height: 243px;background-position: 0px -20px;}
+    .middle_contents .my_health_add{margin-top: -47px;}
+    .dashboard_middle_content .middle_contents{margin-bottom: 8px;}
+    .dashboard_bottom_content .col-lg-3{width: 100%;float: left;margin-bottom: 14px;}
+    .dashboard_bottom_content .my_nutrition{margin-right: 0px;}
+    .dashboard_events, .dashboard_calender{border-radius: 4px;width: 100%;}
+     .dashboard_calender{margin-bottom: 14px;}
+    .dashboard_calender .zabuto_calendar{width: 220px;margin: 0 auto;}
+}
+@media (min-width: 768px) and (max-width: 1199px){
+    .container {max-width: 100%;width: 100%;}
+}
+@media (min-width: 680px) and (max-width: 1023px){
+    .health_graph{width: 530px;margin: 0 auto;}
+    .change_role{font-size: 12px !important;}
+    .site_descrption{width:633px;margin: 0 auto;}
+    .site_descrption .col-lg-3{width: 263px;float: left;margin-bottom: 65px;}
+    .home_myhealth{margin-right: 0px!important;}
+    .home_connect, .home_learn{margin-right: 105px!important;}
+    .event .member_list,.group .member_list,.profile .member_list{width: 300px !important;float: left;height: 250px;margin-right: 10px;}
+    .disease .member_list{width: 300px !important;float: left;height: 365px;margin-right: 10px;}
+    .profile .add_area, .disease .add_area{width: 300px;float: left;}
+    .response_tile .image_container{float: left;}
+    .response_tile .event_name{float: left;margin-left: 10px;}
+    .response_tile .event_name h3{text-align: left;}
+    .response_tile{overflow: hidden;margin-bottom: 20px;}
+}
+@media (min-width: 680px) and (max-width: 768px){
+    .calendar_view .col-lg-9 .ctoolbar .fbutton div{padding: 14px 12px !important;}
+    #div_role_choosen .thumbnail, #div_role_select .thumbnail{padding: 0px 12px 40px !important;}
+}
+@media (min-width: 480px) and (max-width: 767px){
+    .comment_section .media-body{width: 76%;}
+    #disease_posting .comment_section .media-body{width: 79%;}
+    .dashboard_top_content,.dashboard_middle_content,.dashboard_bottom_content{width: 433px;margin: 0 auto;}
+    .dashboard_top_content .calender_events{width: 433px;}
+    .dashboard_weather{display: none;}
+    .dashboard_video{width: 100%;height: auto;margin-bottom: 14px;}
+    .my_photos{width: 100%;height: auto;margin-bottom: 14px;float: left;}
+    .dashboard_video .jwplayer{height: 206px !important;}
+    #dashboard_slideshow_container .bx-wrapper img, .my_photos #dashboard_image_container img{width: 100%;min-width: 100%!important;min-height: auto !important;height: auto !important;}
+    .my_activity .slimScrollDiv{min-height: 158px !important;height: 190px !important;}
+    .dashboard_middle_content .middle_contents  .my_activity{float: left !important;min-height: 243px !important;margin: 0px 14px 14px 0px;}
+    #settings_container .slimScrollDiv, #settings_container .slimScrollDiv #dashboard_image_list{height: 65px !Important;}
+    .dashboard_middle_content .hashtag_list{min-height: 280px;margin-bottom: 14px;}
+    .dashboard_middle_content .middle_contents .col-lg-4{width: 100%;padding: 0px;height: auto;}
+    .dashboard_middle_content .my_health{margin: -30px 0px 0px;min-height: 243px;background-position: 0px -20px;}
+    .middle_contents .my_health_add{margin-top: -47px;}
+    .dashboard_middle_content .middle_contents{margin-bottom: 0px;}
+    .dashboard_bottom_content .col-lg-3{width: 100%;float: left;margin-bottom: 14px;}
+    .dashboard_bottom_content .my_nutrition{margin-right: 0px;}
+}
+@media (min-width: 480px) and (max-width: 679px){
+    .tracker_img {background-size: 100%;padding: 0px 38px 0px 38px;}
+    .tracker_container {width: 375px !Important;}
+    .track_info_indicator .feeling_very_good {margin: 0px 23px 0px 23px;}
+    .track_info_indicator .feeling_good {margin: 0px 25px 0px 25px;}
+    .track_info_indicator .feeling_neutral {margin: 0px 25px 0px 22px;}
+    .track_info_indicator .feeling_bad {margin: 0px 25px 0px 21px;}
+    .track_info_indicator .feeling_very_bad{margin: 0px 25px 0px 21px;}
+    .search_area{margin: 0 auto;  width: 435px;}
+    .calendar_view .col-lg-9 .ctoolbar .fbutton div{padding: 14px 4px !important;}
+    .calendar_view .col-lg-9 .ctoolbar .fbutton div span{font-size: 12px;}
+    .main_calendar_view #info_colorcodes_img_container{margin: 10px 5px 0px 5px !important;}
+    #txtdatetimeshow{font-size: 14px !important;}
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .comment_section .media-body{width: 86%;}
+    #disease_posting .comment_section .media-body{width: 85%;}
+    .dashboard_top_content,.dashboard_middle_content,.dashboard_bottom_content{width: 720px;margin: 0 auto;}
+    .dashboard_video{width: 444px;height: 208px;float: left;margin-bottom: 14px;margin-right: 10px;}
+    .my_photos{width: 444px;height: 208px;float: left;margin-bottom: 14px;}
+    .dashboard_video .jwplayer{height: 206px !important;}
+    #dashboard_slideshow_container .bx-wrapper img, .my_photos #dashboard_image_container img{width: 444px;min-width: 444px !important;min-height: 208px !important;height: 208px !important;}
+    .my_activity .slimScrollDiv{min-height: 158px !important;height: 158px !important;}
+    .dashboard_middle_content .middle_contents  .my_activity{float: left !important;min-height: 208px !important;margin: 0px 14px 14px 0px;}
+    #settings_container .slimScrollDiv, #settings_container .slimScrollDiv #dashboard_image_list{height: 65px !Important;}
+    .dashboard_middle_content .hashtag_list{min-height: 280px;margin-bottom: 14px;}
+    .dashboard_middle_content .middle_contents .col-lg-4{width: 262px;padding: 0px;height: 208px;float: right;}
+    .dashboard_middle_content .my_health{margin: -30px 0px 0px;min-height: 208px;background-position: 0px -20px;}
+    .middle_contents .my_health_add{margin-top: -47px;}
+    .dashboard_middle_content .middle_contents{margin-bottom: 0px;}
+    .dashboard_bottom_content .col-lg-3{width: 353px;float: left;margin-right: 14px;margin-bottom: 14px;}
+    .dashboard_bottom_content .my_nutrition{margin-right: 0px;}
+}
+@media only screen and (min-width:1024px) and (max-width: 1199px){
+    .carecalendar_calendar_view .fshowdatep {
+        margin-right: 0px !important;
+    }
+    .disease_discussion{width: 346px;float: left;}
+    .disease_discription{margin-left: 10px;}
+    .header_notification{margin-left: 95px;}
+    .dashboard_events{width: 45% !important;}
+    .dashboard_calender{width: 55% !important;}
+    #graph_container{width: 270px !important;}
+    .home_video #profile_video_container{width: 484px !important;height: 271px !important;}
+    #health_status_comment_container{width: 100%;}
+    .comment_section .media-body{width: 86%;}
+    #disease_posting .comment_section .media-body{width: 75%;}
+    .home_profile_location h4 span{max-width: 155px !Important;}
+    .health_details .col-lg-3{width: 20% !important;margin-right: 0px !important;}
+    #current_temperature{width: 25% !important;margin-right: 0px !important;}
+    #current_bmivalue{width: 15% !Important;}
+    .online_friends,.my_pmr, .my_nutrition, .my_community, .my_events,.dashboard_video{margin-bottom: 0px;margin-right: 0px;}
+    .profile .indvdl_list{width: 68%;}
+    #bootstrapped-fine-uploader{width: 100px;}
+    .team_members_details .btn_active{max-width: 185px;}
+    .profile_picture #bootstrapped-fine-uploader{width: 135px;margin: 0 auto;}
+    .role_patient:hover, .role_patient.active{background: url('/theme/App/img/signup_arrow.png') 475px center no-repeat;}
+    .role_family:hover, .role_family.active {background: url('/theme/App/img/signup_arrow.png') 411px center no-repeat;}
+    .role_caregiver:hover, .role_caregiver.active {background: url('/theme/App/img/signup_arrow.png') 347px center no-repeat;}
+    .role_friend:hover, .role_friend.active {background: url('/theme/App/img/signup_arrow.png') 284px center no-repeat;}
+    .event_lhs .age_group_graph{padding: 10px 0 20px !important;width: 102% !important;}
+    #settings_container .slimScrollDiv{height: 140px !important;}
+    .my_health_add{font-size: 14px !important;}
+     .disease_discription .media .row .col-lg-8{width: 58% !important;}
+     .disease_discription .media .row .col-lg-4{width: 42% !important;}
+    .dashboard_bottom_content,.dashboard_middle_content,.dashboard_top_content{width:977px;margin: 0 auto;}
+    .mail_frequecy_select{margin-left: 10px !important;}
+    .member_list h4{font-size: 16px !important;}
+    .profile .team_list .team_container{width: 226px !Important;}
+    #blank_area p{font-size: 15px !important;}
+    .profile_icon p{padding: 10px 5px 10px 10px !important;max-width: 85px !important;}
+    .create_common .col-md-3{padding-left: 15px !Important;}
+    #header_search.search_icon{width: 290px;padding-right: 42px;}
+    .event .profile_info,.group .profile_info, .disease .profile_info{width: 360px;float: left;padding: 15px;}
+    .event .profile_cover_photo,.group .profile_cover_photo,.disease .profile_cover_photo{width: 615px;float: left;}
+    .disease .profile_cover_photo{width: 615px;float: right;min-height: 300px;}
+    .detail_page{width: auto;display: table;margin: 0 auto;}
+    #cover_image_container img, #cover_slideshow_container img{width: auto;} 
+    .team_list .team_container{width: 216px !important;margin-right: 15px;}
+    .team_setting{padding-top: 0px !Important;overflow: hidden;}
+    .indvdl_event img,.event_image{width: 230px !important;}
+    .event .event_list .content .row .col-sm-4, .disease #event_list .row .col-sm-4, .group #event_list .row .col-sm-4{width: 232px !important;}
+    .notification .col-lg-9, .event .col-lg-9, .group .col-lg-9, .profile .col-lg-9, .create_common .col-lg-9, .messages .col-lg-9, .calendar_view .col-lg-9, .myteam .col-lg-9{width: 75%;float: left;padding-right: 10px;}
+     .notification .col-lg-3, .event .col-lg-3, .group .col-lg-3, .profile .col-lg-3, .create_common .col-lg-3, .messages .col-lg-3, .calendar_view .col-lg-3, .myteam .col-lg-3{width: 25%;float: left;padding-left: 0px;}
+     .team_discussion .col-lg-3,.hashtag_page .col-lg-3{width: 25%;padding-left: 15px;float: left;padding-right: 0px;}
+     .hashtag_page .col-lg-3{width: 24%;padding-left: 15px;float: left;}
+     .team_discussion .col-lg-9, .hashtag_page .col-lg-9{float: right;width: 75%;}
+      .hashtag_page .col-lg-9{float: right;width: 75%;}
+     .disease .col-lg-9{width: 72%;float: left;padding:0px 10px 0px 0px;}
+      .disease .col-lg-3{width: 28%;float: right;padding:0px 15px 0px 0px;}
+    .add_area{height: 270px !important;}
+    .group_img{width: 212px !important;height: 92px !Important}
+    .group_list{padding: 25px 0px 0px 25px !Important;}
+    .group .group_list .col-sm-4{width: 213px !important;}
+    .edit .col-lg-3{width: 25%;float: left;}
+    .edit .col-lg-9{width: 75%;float: left;}
+    .team_discussion .col-lg-8{width: 70%;padding-right: 10px;float: left;}
+    .team_discussion .col-lg-4{width: 30%;padding-left: 10px;float: left;}
+    .edit_team .col-lg-9,#calendar_view .col-lg-9,.myteam .col-lg-9{padding-right: 15px !Important;}
+    .profile .profile_tile_l{width: 49.5%;}
+    .profile .profile_tile_r{width: 49.5%;}
+    .mynutrition_video img{width: 100%;}
+    .site_descrption .col-lg-3{width: 23.8%;float: left;margin-right: 15px;}
+    .mynutrition .health_graph img{width: 58%;margin-top: 22px;}
+    .site_descrption .col-lg-3.home_learn img{margin-top: 67px !important;}
+    .member_container{overflow: hidden;}
+    .my_health_personal_info{font-size: 14px!important;}
+    .my_health_personal_info img{margin-top: -5px;}
+    .track_info_indicator{padding: 10px 5px 15px 5px !important;}
+    .tracker_container{width: 465px !Important;}
+    .tracker_img{background-size: 100%;}
+    .track_info_indicator .feeling_very_good{margin: 0px 32px 0px 41px !important;}
+    .track_info_indicator .feeling_good{margin: 0px 25px 0px 29px !Important;}
+    .track_info_indicator .feeling_neutral{margin: 0px 25px 0px 38px !Important;}
+    .track_info_indicator .feeling_bad{margin: 0px 25px 0px 37px !Important;}
+   .track_info_indicator .feeling_very_bad{margin: 0px 25px 0px 38px !Important;}
+   .mysymptoms .row .col-md-5 h2{margin-top: 0px;}
+   .profile .profile_tile_details.friend{margin-top: 62px !important;}
+   .profile .profile_tile_buttons{padding-top: 0px;}
+   .profile .profile_tile_buttons button{margin-left: 10px;}
+   .disease #diseaseCommunityList{padding: 12px !important;}
+   .dashboard_weather .dates li{padding: 0px 23px !important;}
+   .dashboard_weather .temperature li,.dashboard_weather .temperature_values li{width: 70px !Important;}
+   .dashboard_top_content .dashboard_profile{width: 30.8%;float: left;margin-right: 10px;background-position: -542px -153px;}
+   .calender_events{margin-right: 0px; width: 100% !important;}
+   .dashboard_middle_content .col-lg-9{width: 74.8%;float: left;}
+   .dashboard_middle_content .hashtag_list{min-height: 552px !important;width: 24.2%;float: left;margin-left: 9px;}
+   .online_friends, .my_pmr, .my_nutrition, .my_community, .my_events, .my_activity{float: left;}
+   .apple_img{width: 236px !Important;background-position: 4px -9px !important;}
+   .dashboard_header,.my_health_dashboard_header{font-size: 22px !important;}
+   .dashboard_video{width: 66%;float: left;margin-right: 10px;}
+   .my_photos{width: 100%;float: left;overflow: hidden;height: 271px !important;}
+   .dashboard_video .jwplayer{height:257px !important;}
+   .my_health{min-height: 280px !Important;}
+/*   .my_health_add{margin-top: -82px !important;}*/
+   .dashboard_top_content{margin-bottom: 10px !Important;}
+   .middle_contents .col-lg-4{width: 238px;float:left;padding: 0px;margin-bottom: 10px !Important;}
+   .middle_contents{margin-bottom: 0px !important;}
+   .dashboard_weather{width: 236px !important;border-radius: 4px;}
+   .dashboard_middle_content .middle_contents .my_health, .home_bottom_section .my_health {background-image: url('/theme/App/img/my_health_bg.png');background-position: 0px 2px;}
+}
+@media only screen  and (max-width: 389px){
+    .profile .btn_frnd_rqst{font-size: 11px;padding: 5px 5px 5px 12px;}
+    .profile .print_btn{padding: 5px 31px 5px 12px;}
+    .edit .col-lg-9 .col-lg-3 label{margin-right: 10px !Important;}
+    #registrationWizards #uploadPreview .col-lg-3{margin: 20px 0px 0px 0px !important;}
+    .event_detail_icon a{margin-left: -1px !important;}
+    .message_search_field .btn_normal{margin-bottom: 10px;}
+    .calendar_view .add_area, .messages .add_area, .event .add_area, .group .add_area,.myteam .add_area{width: 274px;}
+    .volunteer_div{width: 274px !important;}
+    .comment_section .media-body{width: 64% !important;}
+    .posting_area .post_comment_section_form .media-body{width: 80% !important;}
+    .create_common .date_hint{margin-left: 15px;}
+    .login_form_container .hideShowPassword-wrapper {width: 140px !Important;}
+    .edit #UserTimezone_chzn{width: 100% !important;}
+}
+@media only screen and (max-width: 630px){
+    .profile .profile_tile_l{width: 100%;}
+    .profile .user_medium_thumb{width: 100px;height: 100px;}
+    .profile .profile_tile_details.friend{margin-top: 40px !important;}
+    .profile .profile_tile_buttons button{margin-left: 10px;}
+    .profile .profile_tile_buttons {padding-top: 10px !Important}
+}
+@media (min-width: 992px) and (max-width: 1023px){
+    .myhealth .col-md-6{width: 100%;}
+}

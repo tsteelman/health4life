@@ -1,0 +1,321 @@
+body
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#ace-settings-container{
+    display:none;
+}
+.user-info {
+    top:15px;
+    max-width: 200px;
+}
+
+.user-info small {
+    font-size:95%;
+}
+
+/* .navbar .navbar-inner{
+        background-color: #0163AC;
+}
+.ace-nav > li.light-blue
+{
+        background: #01518E;
+} */
+
+.login-layout{
+    background-color: #E4E6E9;
+}
+
+.icon-arrow-left {
+    text-decoration: none;
+}
+
+.icon-arrow-right {
+    text-decoration: none;
+}
+
+.lbl:before  {
+    margin-bottom: 3px;
+}
+
+#DiseaseIndexForm, #DeleteDiseaseIndexForm {
+    margin: 0;
+}
+/********* facelist *************/
+ul.facelist li.token span.x {
+    background-position: 6px 4px;
+}
+
+ul.facelist li.token-input input{
+    width: 220px;
+}
+/********* /facelist *************/
+
+.symptom_desription{
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    white-space: nowrap;
+}
+
+#analytics .span6{margin-left: 10px;}
+#disease_view{font-size: 14px;}
+#disease_view .span2{font-size: 14px;font-weight: bold;text-align: right;}
+#disease_view .span12{margin-top: 5px;}
+
+input[type="checkbox"]#UserIsSuperAdmin{
+    opacity: 1;
+}
+/********Profile Page CSS*****************/
+.profile_brdr_5{border-width: 5px !important;}
+.user_small_thumb{width:60px; height:60px}
+.user_x_small_thumb{width:40px; height:40px}
+.user_medium_thumb{width:120px; height:120px}
+.user_large_thumb{width:200px; height:200px}
+.border_patient{   
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    border:2px solid #70BF54!important;
+}
+.border_caregiver{   
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    border:2px solid #957EBA!important;
+}
+.border_family{   
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    border:2px solid #3C9CD7!important;
+}
+.border_other{   
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    border:2px solid #20BEC6!important;
+}
+.border_admin{   
+    webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    border:2px solid #c05341;
+}
+.online{color: #70BF54;}
+.offline{color: #E4E6E9;}
+#manage_users .dataTables_wrapper .row-fluid{background-color: transparent;}
+.label_Not .Set{}
+.label_Family{background-color: #3C9CD7!important;}
+.label_Patient{background-color: #70BF54!important;}
+.label_Other{background-color: #20BEC6!important;}
+.label_Caregiver{background-color: #957EBA!important;}
+.memberdiv .body .name{text-overflow: ellipsis;white-space: nowrap;max-width: 100px;overflow: hidden;}
+/********Profile Page CSS*****************/
+/********Breadcrumb CSS*******************/
+.breadcrumbs .breadcrumb li a{
+    color: #9f9f9f;
+}
+.breadcrumbs ul.breadcrumb{margin-top: 8px;}
+/********Breadcrumb CSS*******************/
+.infobox-content a{color: #555;}
+.infobox-content a:hover{text-decoration: none;}
+.infobox{height: 100px;padding:20px 0px;}
+.infobox>.infobox-icon{display:block;text-align: center;width:100%}
+.infobox>.infobox-data{display:block;text-align: center;}
+.infobox>.infobox-data>.infobox-data-number{display: inline;}
+
+#CommunityIndexForm .dataTables_length select {
+    width: 90px;
+}
+#CommunityIndexForm input[type="text"] {
+    height : 22px; 
+    width : 225px;
+}
+.event_box{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #BBDAEC;
+    padding: 2px;
+}
+.event_image{
+    background-color: #BBDAEC;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 220px;
+}
+.event_image img {
+    height: 150px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.event_time{
+    font-size: 10px;
+}
+/********************Logged-in-user-profile-pic***************************/
+.user_pic{
+    margin: -4px 8px 0 0;
+    border-radius: 24px;
+    max-width: 36px!important;
+    height: auto!important;
+}
+/********************Logged-in-user-profile-pic***************************/
+
+/********************Edit profile***************************/
+#AdminProfileEditForm input[readonly].date-picker{cursor: pointer;}
+#AdminProfileEditForm .input-append span.help-block, #AdminProfileEditForm label span.help-block{font-size: 13px;}
+#AdminProfileEditForm.form-horizontal .help-block {margin-top: 0px;}
+.avatar_upload_container{
+    position: relative;
+    height: auto;
+    border: 1px dashed #AAA;
+    border-radius: 4px;
+    text-align: center;
+}
+.avatar_upload_container span {
+    display: inline-block;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: 12px;
+    line-height: 22px;
+    background-color: white;
+    color: #CCC;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+}
+.user_medium_thumb.user_pic {
+    border-radius: 120px;
+    max-width: 120px!important;
+}
+#AdminProfileEditForm .icon-calendar{cursor: pointer;}
+.upload_area {
+    height: 225px;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.upload_area img {
+    max-height: 100%;
+}
+.datepicker .datepicker-months td, .datepicker .datepicker-years td {
+    width: 160px !important;
+}
+/********************Edit profile***************************/
+
+/********************Dashboard*****************************************/
+a:hover.infobox-green{color: #9abc32;}
+a:hover.infobox-blue{color: #6fb3e0;}
+a:hover.infobox-pink{color: #cb6fd7;}
+a:hover.infobox-red{color: #d53f40;}
+a:hover.infobox-orange2{color: #f79263;}
+/********************Dashboard*****************************************/
+/********************Event Detail Page*********************************/
+.accordion-inner .memberdiv{margin: 0 7px 24px;}
+/********************Event Detail Page*********************************/
+
+/******************** Newsletter preview *********************************/
+#modal-newsletter-preview, #modal-insert-details{
+    width: 700px;
+    position: absolute;
+    height: auto;
+}
+
+#modal-newsletter-preview .modal-body, #modal-insert-details .modal-body{
+    max-height: none;
+}
+/******************** /Newsletter preview *********************************/
+
+/********************Pagination***************************************/
+.pagination_counter{padding-top: 5px;margin-right: 15px;}
+/********************Pagination***************************************/
+.dataTables_wrapper table .label{
+    width: 60px;
+    text-align: center;
+}
+.dataTables_filter .btn-small,.table-header input.btn-small{height: 30px;}
+.dataTables_wrapper .btn-mini{
+    width: 20px !important;
+}
+
+.radio-input .lbl{margin-right: 20px !important;}
+.nav-list li.active>a:after{border-width: 14px 13px !important;}
+
+/**adddisease page*/
+.dashboard_data_teaxtarea{
+    width: 100%;
+}
+.red_star_span{width: 5%!important;float: right!important;color:#ff000f!important;}
+.add_video_url input:first-child{padding: 8px 70px 8px 10px;width: 430px; height: 50px;}
+.add_library_video_url input:first-child{width: 500px; height: 50px;}
+.add_video_url .add_video, .add_library_video_url .add_video{
+    position: relative;
+    float: right;
+    margin: -52px 40px 5px 0px !important;
+}
+#disease_logos .active{border: 5px solid #bbdaec!important;}
+#disease_logos .modal-body .padding_block{min-width: 30%;padding-left:20px;padding-bottom:5px;overflow: hidden;float: left;}
+#disease_logos .modal-body .padding_block .image_div{background-color: #2c589e !important;float: left;padding: 10px;border: 5px solid #fff;}
+#disease_logos .modal-body .padding_block .image_div:hover{border: 5px solid #bbdaec!important;}
+#disease_logos .modal-body .padding_block .image_div img{float: left;}
+#disease_logos{width: 66%;margin-left: -440px}
+#DiseaseDescription{width: 850px;height: 130px;}
+.error{color: #e9322d!important;}
+.add_video_url .close_video_preview {
+    position: relative;
+    float: right;
+    margin: 0px 10px 5px 0px !important;
+}
+#previewContent {margin: 100px 0px 0px -130px;}
+/**//*adddisease page*/
+
+.action-buttons a{cursor: pointer;}
+
+#AbuseReportFilter{width: 100px;}
+@media (min-width: 1200px){
+    .main-content .container{width: 1110px !important;}
+}
+.url_img{max-height: 300px;}
+.post_img{max-height: 200px;margin-right: 10px;margin-bottom: 10px;}
+.seperator{
+    width: 5px;
+    height: 4px;
+    margin:8px 6px 0px;
+    background-image:url('/theme/App/img/seperator.png'); 
+}
+.comment_details {	margin-top: 0px;background-color: #ebebeb;}
+.comment_section.selected {	border: 1px solid red;}
+.comment_section {padding: 10px;border-bottom: 1px solid #fff;}
+.comment_section .media {margin: 0px !important;overflow: inherit !important;}
+.comment_section .media a {margin-right: 10px !important;}
+.posting_area .media a img {margin: 10px 0px;}
+.comment_section .media-body {width: 85%;}
+.comment_section .media-body h5 {margin: 10px 2px 0px 0px;}
+.posting_area .media-body h5, .posting_area .media-body h5 a {
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+	color: #2c589e !important;
+	font-family: OpenSans-Bold !important;
+}
+.comment_section .media-body .comments {
+	display: block;
+	padding-top: 10px;
+	margin-bottom: 0px!important;
+	font-size: 12px!important;
+	color: #444444!important;
+	font-family: OpenSans-Semibold;
+	padding-bottom: 5px;
+}
+.comment_section .timeago {color: #959595;font-size: 11px !important;}
+.post_btm{font-size: 12px;color: #959595;}
+#select_all_abuse_reports{opacity: 1;position: static;margin: 0px 2px 0px 0px;}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, select:focus{border-color: #307ecc !important;}
+#SurveyAddForm .control-group .controls ul li input[type="text"]:focus{ border-color: #fff !important;}
